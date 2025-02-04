@@ -1,0 +1,15 @@
+E:\Fasstrack.Net\ManagePersionIncomeApp\ManageRevenue\ManageRevenue.BLL\bin\Debug\net8.0\ManageRevenue.BLL.deps.json
+E:\Fasstrack.Net\ManagePersionIncomeApp\ManageRevenue\ManageRevenue.BLL\bin\Debug\net8.0\ManageRevenue.BLL.dll
+E:\Fasstrack.Net\ManagePersionIncomeApp\ManageRevenue\ManageRevenue.BLL\bin\Debug\net8.0\ManageRevenue.BLL.pdb
+E:\Fasstrack.Net\ManagePersionIncomeApp\ManageRevenue\ManageRevenue.BLL\bin\Debug\net8.0\ManageRevenue.Domain.dll
+E:\Fasstrack.Net\ManagePersionIncomeApp\ManageRevenue\ManageRevenue.BLL\bin\Debug\net8.0\ManageRevenue.Domain.pdb
+E:\Fasstrack.Net\ManagePersionIncomeApp\ManageRevenue\ManageRevenue.BLL\obj\Debug\net8.0\ManageRevenue.BLL.csproj.AssemblyReference.cache
+E:\Fasstrack.Net\ManagePersionIncomeApp\ManageRevenue\ManageRevenue.BLL\obj\Debug\net8.0\ManageRevenue.BLL.GeneratedMSBuildEditorConfig.editorconfig
+E:\Fasstrack.Net\ManagePersionIncomeApp\ManageRevenue\ManageRevenue.BLL\obj\Debug\net8.0\ManageRevenue.BLL.AssemblyInfoInputs.cache
+E:\Fasstrack.Net\ManagePersionIncomeApp\ManageRevenue\ManageRevenue.BLL\obj\Debug\net8.0\ManageRevenue.BLL.AssemblyInfo.cs
+E:\Fasstrack.Net\ManagePersionIncomeApp\ManageRevenue\ManageRevenue.BLL\obj\Debug\net8.0\ManageRevenue.BLL.csproj.CoreCompileInputs.cache
+E:\Fasstrack.Net\ManagePersionIncomeApp\ManageRevenue\ManageRevenue.BLL\obj\Debug\net8.0\ManageRe.55BCD439.Up2Date
+E:\Fasstrack.Net\ManagePersionIncomeApp\ManageRevenue\ManageRevenue.BLL\obj\Debug\net8.0\ManageRevenue.BLL.dll
+E:\Fasstrack.Net\ManagePersionIncomeApp\ManageRevenue\ManageRevenue.BLL\obj\Debug\net8.0\refint\ManageRevenue.BLL.dll
+E:\Fasstrack.Net\ManagePersionIncomeApp\ManageRevenue\ManageRevenue.BLL\obj\Debug\net8.0\ManageRevenue.BLL.pdb
+E:\Fasstrack.Net\ManagePersionIncomeApp\ManageRevenue\ManageRevenue.BLL\obj\Debug\net8.0\ref\ManageRevenue.BLL.dll

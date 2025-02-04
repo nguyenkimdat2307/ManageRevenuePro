@@ -1,0 +1,12 @@
+E:\Fasstrack.Net\ManagePersionIncomeApp\ManageRevenue\ManageRevenue.Domain\bin\Debug\net8.0\ManageRevenue.Domain.deps.json
+E:\Fasstrack.Net\ManagePersionIncomeApp\ManageRevenue\ManageRevenue.Domain\bin\Debug\net8.0\ManageRevenue.Domain.dll
+E:\Fasstrack.Net\ManagePersionIncomeApp\ManageRevenue\ManageRevenue.Domain\bin\Debug\net8.0\ManageRevenue.Domain.pdb
+E:\Fasstrack.Net\ManagePersionIncomeApp\ManageRevenue\ManageRevenue.Domain\obj\Debug\net8.0\ManageRevenue.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Fasstrack.Net\ManagePersionIncomeApp\ManageRevenue\ManageRevenue.Domain\obj\Debug\net8.0\ManageRevenue.Domain.AssemblyInfoInputs.cache
+E:\Fasstrack.Net\ManagePersionIncomeApp\ManageRevenue\ManageRevenue.Domain\obj\Debug\net8.0\ManageRevenue.Domain.AssemblyInfo.cs
+E:\Fasstrack.Net\ManagePersionIncomeApp\ManageRevenue\ManageRevenue.Domain\obj\Debug\net8.0\ManageRevenue.Domain.csproj.CoreCompileInputs.cache
+E:\Fasstrack.Net\ManagePersionIncomeApp\ManageRevenue\ManageRevenue.Domain\obj\Debug\net8.0\ManageRevenue.Domain.dll
+E:\Fasstrack.Net\ManagePersionIncomeApp\ManageRevenue\ManageRevenue.Domain\obj\Debug\net8.0\refint\ManageRevenue.Domain.dll
+E:\Fasstrack.Net\ManagePersionIncomeApp\ManageRevenue\ManageRevenue.Domain\obj\Debug\net8.0\ManageRevenue.Domain.pdb
+E:\Fasstrack.Net\ManagePersionIncomeApp\ManageRevenue\ManageRevenue.Domain\obj\Debug\net8.0\ref\ManageRevenue.Domain.dll
+E:\Fasstrack.Net\ManagePersionIncomeApp\ManageRevenue\ManageRevenue.Domain\obj\Debug\net8.0\ManageRevenue.Domain.csproj.AssemblyReference.cache
