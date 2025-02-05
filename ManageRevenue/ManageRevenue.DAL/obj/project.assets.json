@@ -439,11 +439,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Fasstrack.Net\\ManagePersionIncomeApp\\ManageRevenue\\ManageRevenue.DAL\\ManageRevenue.DAL.csproj",
+      "projectUniqueName": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue.DAL\\ManageRevenue.DAL.csproj",
       "projectName": "ManageRevenue.DAL",
-      "projectPath": "E:\\Fasstrack.Net\\ManagePersionIncomeApp\\ManageRevenue\\ManageRevenue.DAL\\ManageRevenue.DAL.csproj",
+      "projectPath": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue.DAL\\ManageRevenue.DAL.csproj",
       "packagesPath": "C:\\Users\\kimda\\.nuget\\packages\\",
-      "outputPath": "E:\\Fasstrack.Net\\ManagePersionIncomeApp\\ManageRevenue\\ManageRevenue.DAL\\obj\\",
+      "outputPath": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue.DAL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\kimda\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -460,8 +460,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "E:\\Fasstrack.Net\\ManagePersionIncomeApp\\ManageRevenue\\ManageRevenue.Domain\\ManageRevenue.Domain.csproj": {
-              "projectPath": "E:\\Fasstrack.Net\\ManagePersionIncomeApp\\ManageRevenue\\ManageRevenue.Domain\\ManageRevenue.Domain.csproj"
+            "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue.Domain\\ManageRevenue.Domain.csproj": {
+              "projectPath": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue.Domain\\ManageRevenue.Domain.csproj"
             }
           }
         }

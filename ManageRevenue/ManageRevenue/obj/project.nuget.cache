@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hZ06kZnVGCOadIUV0CeHYY/7q2hhDotaTO3wuhAAOm+L+voSPlrC1L/aCEt/922kiJf0mi9Qa8vmtlrzqmRXLQ==",
+  "dgSpecHash": "IVeaGVo8KI9OpXQKMItPyyW4gp2/RB2071oy0Zj8gl6IBY2tlDDX9T7MAKm3TInaEU7myxfKXp7t/3n7qoC1jA==",
   "success": true,
-  "projectFilePath": "E:\\Fasstrack.Net\\ManagePersionIncomeApp\\ManageRevenue\\ManageRevenue\\ManageRevenue.csproj",
+  "projectFilePath": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue\\ManageRevenue.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kimda\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",
     "C:\\Users\\kimda\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.3.0\\microsoft.aspnetcore.http.abstractions.2.3.0.nupkg.sha512",

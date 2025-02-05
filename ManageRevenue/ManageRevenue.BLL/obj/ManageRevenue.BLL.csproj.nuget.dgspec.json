@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Fasstrack.Net\\ManagePersionIncomeApp\\ManageRevenue\\ManageRevenue.BLL\\ManageRevenue.BLL.csproj": {}
+    "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue.BLL\\ManageRevenue.BLL.csproj": {}
   },
   "projects": {
-    "E:\\Fasstrack.Net\\ManagePersionIncomeApp\\ManageRevenue\\ManageRevenue.BLL\\ManageRevenue.BLL.csproj": {
+    "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue.BLL\\ManageRevenue.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Fasstrack.Net\\ManagePersionIncomeApp\\ManageRevenue\\ManageRevenue.BLL\\ManageRevenue.BLL.csproj",
+        "projectUniqueName": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue.BLL\\ManageRevenue.BLL.csproj",
         "projectName": "ManageRevenue.BLL",
-        "projectPath": "E:\\Fasstrack.Net\\ManagePersionIncomeApp\\ManageRevenue\\ManageRevenue.BLL\\ManageRevenue.BLL.csproj",
+        "projectPath": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue.BLL\\ManageRevenue.BLL.csproj",
         "packagesPath": "C:\\Users\\kimda\\.nuget\\packages\\",
-        "outputPath": "E:\\Fasstrack.Net\\ManagePersionIncomeApp\\ManageRevenue\\ManageRevenue.BLL\\obj\\",
+        "outputPath": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue.BLL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kimda\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\Fasstrack.Net\\ManagePersionIncomeApp\\ManageRevenue\\ManageRevenue.Domain\\ManageRevenue.Domain.csproj": {
-                "projectPath": "E:\\Fasstrack.Net\\ManagePersionIncomeApp\\ManageRevenue\\ManageRevenue.Domain\\ManageRevenue.Domain.csproj"
+              "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue.Domain\\ManageRevenue.Domain.csproj": {
+                "projectPath": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue.Domain\\ManageRevenue.Domain.csproj"
               }
             }
           }
@@ -68,14 +68,14 @@
         }
       }
     },
-    "E:\\Fasstrack.Net\\ManagePersionIncomeApp\\ManageRevenue\\ManageRevenue.Domain\\ManageRevenue.Domain.csproj": {
+    "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue.Domain\\ManageRevenue.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Fasstrack.Net\\ManagePersionIncomeApp\\ManageRevenue\\ManageRevenue.Domain\\ManageRevenue.Domain.csproj",
+        "projectUniqueName": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue.Domain\\ManageRevenue.Domain.csproj",
         "projectName": "ManageRevenue.Domain",
-        "projectPath": "E:\\Fasstrack.Net\\ManagePersionIncomeApp\\ManageRevenue\\ManageRevenue.Domain\\ManageRevenue.Domain.csproj",
+        "projectPath": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue.Domain\\ManageRevenue.Domain.csproj",
         "packagesPath": "C:\\Users\\kimda\\.nuget\\packages\\",
-        "outputPath": "E:\\Fasstrack.Net\\ManagePersionIncomeApp\\ManageRevenue\\ManageRevenue.Domain\\obj\\",
+        "outputPath": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kimda\\AppData\\Roaming\\NuGet\\NuGet.Config",
