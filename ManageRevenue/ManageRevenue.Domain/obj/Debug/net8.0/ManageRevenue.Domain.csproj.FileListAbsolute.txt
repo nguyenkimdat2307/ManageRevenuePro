@@ -10,3 +10,16 @@ E:\Fasstrack.Net\ManagePersionIncomeApp\ManageRevenue\ManageRevenue.Domain\obj\D
 E:\Fasstrack.Net\ManagePersionIncomeApp\ManageRevenue\ManageRevenue.Domain\obj\Debug\net8.0\ManageRevenue.Domain.pdb
 E:\Fasstrack.Net\ManagePersionIncomeApp\ManageRevenue\ManageRevenue.Domain\obj\Debug\net8.0\ref\ManageRevenue.Domain.dll
 E:\Fasstrack.Net\ManagePersionIncomeApp\ManageRevenue\ManageRevenue.Domain\obj\Debug\net8.0\ManageRevenue.Domain.csproj.AssemblyReference.cache
+E:\ProjectDev3\ManageRevenue\ManageRevenue.Domain\bin\Debug\net8.0\ManageRevenue.Domain.deps.json
+E:\ProjectDev3\ManageRevenue\ManageRevenue.Domain\bin\Debug\net8.0\ManageRevenue.Domain.dll
+E:\ProjectDev3\ManageRevenue\ManageRevenue.Domain\bin\Debug\net8.0\ManageRevenue.Domain.pdb
+E:\ProjectDev3\ManageRevenue\ManageRevenue.Domain\obj\Debug\net8.0\ManageRevenue.Domain.csproj.AssemblyReference.cache
+E:\ProjectDev3\ManageRevenue\ManageRevenue.Domain\obj\Debug\net8.0\ManageRevenue.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\ProjectDev3\ManageRevenue\ManageRevenue.Domain\obj\Debug\net8.0\ManageRevenue.Domain.AssemblyInfoInputs.cache
+E:\ProjectDev3\ManageRevenue\ManageRevenue.Domain\obj\Debug\net8.0\ManageRevenue.Domain.AssemblyInfo.cs
+E:\ProjectDev3\ManageRevenue\ManageRevenue.Domain\obj\Debug\net8.0\ManageRevenue.Domain.csproj.CoreCompileInputs.cache
+E:\ProjectDev3\ManageRevenue\ManageRevenue.Domain\obj\Debug\net8.0\ManageRevenue.Domain.sourcelink.json
+E:\ProjectDev3\ManageRevenue\ManageRevenue.Domain\obj\Debug\net8.0\ManageRevenue.Domain.dll
+E:\ProjectDev3\ManageRevenue\ManageRevenue.Domain\obj\Debug\net8.0\refint\ManageRevenue.Domain.dll
+E:\ProjectDev3\ManageRevenue\ManageRevenue.Domain\obj\Debug\net8.0\ManageRevenue.Domain.pdb
+E:\ProjectDev3\ManageRevenue\ManageRevenue.Domain\obj\Debug\net8.0\ref\ManageRevenue.Domain.dll
