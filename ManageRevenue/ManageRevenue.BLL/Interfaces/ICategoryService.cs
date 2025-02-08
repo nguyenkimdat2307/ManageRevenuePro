@@ -6,6 +6,6 @@ namespace ManageRevenue.BLL.Interfaces
     public interface ICategoryService
     {
         Task<Response<string>> AddCategoryRevenu(CategoryViewModel categoryViewModel);
-        Task<Response<CategoryViewModel>> GetCategoryRevenuByUserId(int userId, bool typeCollect, bool typeSpend);
+        Task<Response<CategoryViewModel>> GetCategoryRevenuByUserId(int userId);
     }
 }

@@ -1,7 +1,7 @@
 ﻿using ManageRevenue.BLL.Interfaces;
 using ManageRevenue.Domain.Models;
 using ManageRevenue.Models.Transaction;
-using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ManageRevenue.Controllers
@@ -15,12 +15,16 @@ namespace ManageRevenue.Controllers
         {
             _transactionService = transactionService;
         }
+
+        [Authorize]
         [HttpGet]
         public async Task<IActionResult> GetMonthlyTransaction(int userId, int month, int year)
         {
             var result = await _transactionService.GetMonthlyTransactionSummary(userId, month, year);
             return Ok(result);
         }
+
+        [Authorize]
         [HttpPost]
         public async Task<IActionResult> AddTransaction(TransactionRequestModel transactionRequestModel)
         {

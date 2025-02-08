@@ -6,7 +6,7 @@
         public int UserId { get; set; }
         public string Name { get; set; } = string.Empty;
         public bool Type { get; set; } 
-        public bool IsPersonal { get; set; }
+        public string Color { get; set; } = string.Empty;
         public DateTime CreatedAt { get; set; }
         public DateTime UpdatedAt { get; set; }
     }

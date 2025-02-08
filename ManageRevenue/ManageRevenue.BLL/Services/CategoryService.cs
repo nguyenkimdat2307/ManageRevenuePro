@@ -18,7 +18,6 @@ namespace ManageRevenue.BLL.Services
             var category = new CategoryViewModel
             {
                 Id = categoryViewModel.Id,
-                IsPersonal = categoryViewModel.IsPersonal,
                 Name = categoryViewModel.Name,
                 Type = categoryViewModel.Type,
                 UserId = categoryViewModel.UserId
@@ -28,10 +27,10 @@ namespace ManageRevenue.BLL.Services
             return response;
         }
 
-        public async Task<Response<CategoryViewModel>> GetCategoryRevenuByUserId(int userId, bool typeCollect, bool typeSpend)
+        public async Task<Response<CategoryViewModel>> GetCategoryRevenuByUserId(int userId)
         {
             var respone = new Response<CategoryViewModel>();
-            var result = await _categoryRepository.GetCategoryManageRevenue(userId, typeCollect, typeSpend);
+            var result = await _categoryRepository.GetCategoryManageRevenue(userId);
             respone.DataList = result.DataList;
             return respone;
         }

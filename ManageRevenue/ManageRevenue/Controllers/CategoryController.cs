@@ -19,8 +19,7 @@ namespace ManageRevenue.Controllers
         {
             _categoryService = categoryService;
         }
-        [Authorize]
-        [HttpPost("add_category")]
+        [HttpPost("new-category")]
         public async Task<IActionResult> AddCategory(CategoryRequestModel categoryRequestModel)
         {
             var request = new CategoryViewModel
@@ -29,32 +28,50 @@ namespace ManageRevenue.Controllers
                 UserId = categoryRequestModel.UserId,
                 Name = categoryRequestModel.Name,
                 Type = categoryRequestModel.Type,
-                IsPersonal = categoryRequestModel.IsPersonal,
             };
             var result = await _categoryService.AddCategoryRevenu(request);
             return  Ok(result); ;
         }
-        [Authorize]
-        [HttpGet("get_category")]
-        public async Task<IActionResult> GetCategoryByUser(int id, bool typeCollect, bool typeSpend)
+        [HttpGet("get-category")]
+        public async Task<IActionResult> GetCategoryByUser(int id)
         {
-            var categoryResponse = await _categoryService.GetCategoryRevenuByUserId(id, typeCollect,typeSpend);
+            var categoryResponse = await _categoryService.GetCategoryRevenuByUserId(id);
 
             var response = new Response<CategoryResponseModel>
             {
                 Code = categoryResponse.Code,
                 Message = categoryResponse.Message,
-                DataList = categoryResponse.DataList.Select(category => new CategoryResponseModel
-                {
-                    Id = category.Id,
-                    UserId = category.UserId,
-                    Name = category.Name,
-                    IsPersonal = category.IsPersonal,
-                    Type = category.Type
+                DataList = new List<CategoryResponseModel>
+        {
+            new CategoryResponseModel
+            {
+                ListCategoryCollect = categoryResponse.DataList
+                    .Where(category => category.Type == true)
+                    .Select(category => new CategoryCollect
+                    {
+                        Id = category.Id,
+                        UserId = category.UserId,
+                        Name = category.Name,
+                        Type = category.Type,
+                        Color = category.Color
+                    }).ToList(),
 
-                }).ToList()
+                ListCategorySpend = categoryResponse.DataList
+                    .Where(category => category.Type == false)
+                    .Select(category => new CategorySpend
+                    {
+                        Id = category.Id,
+                        UserId = category.UserId,
+                        Name = category.Name,
+                        Type = category.Type,
+                        Color = category.Color
+                    }).ToList()
+            }
+        }
             };
+
             return Ok(response);
         }
+
     }
 }
