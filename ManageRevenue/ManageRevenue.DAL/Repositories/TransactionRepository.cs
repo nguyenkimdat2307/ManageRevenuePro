@@ -46,7 +46,6 @@ namespace ManageRevenue.DAL.Repositories
             var response = new TransactionSummaryViewModel();
             using var connection = CreateConnection();
 
-            // Gọi Stored Procedure GetMonthlyTransactionSummary
             var multi = await connection.QueryMultipleAsync(
                 "GetMonthlyTransactionSummary",
                 new { UserId = userId, Month = month, Year = year },
@@ -71,9 +70,8 @@ namespace ManageRevenue.DAL.Repositories
             }
 
 
-            // Cập nhật vào response
-            response.Data = summaryData;  // Gắn tổng thu nhập, chi tiêu và số dư vào `Data`
-            response.DataList = transactionDetails;  // Gắn danh sách giao dịch vào `DataList`
+            response.Data = summaryData;  
+            response.DataList = transactionDetails;
             response.Message = "Successfully retrieved monthly transaction summary.";
             response.Code = 200;
 

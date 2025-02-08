@@ -5,7 +5,7 @@ namespace ManageRevenue.BLL.Interfaces
 {
     public interface ITransactionService
     {
-        Task<TransactionSummaryViewModel> GetMonthlyTransactionSummary(int userId, int month, int year);
+        Task<TransactionSummaryViewModel> GetMonthlyTransactionSummary(int month, int year);
         Task<Response<string>> AddTransactionSummary(TransactionViewModel transactionViewModel);
     }
 }

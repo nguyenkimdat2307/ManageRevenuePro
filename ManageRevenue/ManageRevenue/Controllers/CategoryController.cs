@@ -19,23 +19,24 @@ namespace ManageRevenue.Controllers
         {
             _categoryService = categoryService;
         }
+        [Authorize]
         [HttpPost("new-category")]
         public async Task<IActionResult> AddCategory(CategoryRequestModel categoryRequestModel)
         {
             var request = new CategoryViewModel
             {
-                Id = categoryRequestModel.Id,
-                UserId = categoryRequestModel.UserId,
                 Name = categoryRequestModel.Name,
                 Type = categoryRequestModel.Type,
+                Color = categoryRequestModel.Color
             };
             var result = await _categoryService.AddCategoryRevenu(request);
             return  Ok(result); ;
         }
+        [Authorize]
         [HttpGet("get-category")]
-        public async Task<IActionResult> GetCategoryByUser(int id)
+        public async Task<IActionResult> GetCategoryByUser()
         {
-            var categoryResponse = await _categoryService.GetCategoryRevenuByUserId(id);
+            var categoryResponse = await _categoryService.GetCategoryRevenuByUserId();
 
             var response = new Response<CategoryResponseModel>
             {

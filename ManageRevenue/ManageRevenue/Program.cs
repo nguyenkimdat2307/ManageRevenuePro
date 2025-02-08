@@ -1,4 +1,5 @@
-﻿using ManageRevenue.BLL.Interfaces;
+﻿using ManageRevenue.BLL.Common;
+using ManageRevenue.BLL.Interfaces;
 using ManageRevenue.BLL.Services;
 using ManageRevenue.DAL.Repositories;
 using ManageRevenue.Domain.Interfaces;
@@ -25,6 +26,8 @@ builder.Services.AddScoped<ICategoryRepositoy, CategoryRepository>();
 builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<ITransactionRepository, TransactionRepository>();
 builder.Services.AddScoped<ITransactionService, TransactionService>();
+builder.Services.AddHttpContextAccessor();
+builder.Services.AddScoped<ISessionInfo, SessionInfo>();
 
 builder.Services.AddSwaggerGen(c =>
 {

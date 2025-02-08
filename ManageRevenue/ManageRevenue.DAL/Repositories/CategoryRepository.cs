@@ -47,9 +47,9 @@ namespace ManageRevenue.DAL.Repositories
             using var connection = CreateConnection();
 
             string sql = @"
-                SELECT Id, UserId, Name, Type, IsPersonal, CreatedAt, UpdatedAt
+                SELECT Id, UserId, Name, Type, Color, CreatedAt, UpdatedAt
                 FROM Categories
-                WHERE IsPersonal = 1 AND UserId = @UserId;
+                WHERE UserId = @UserId;
             ";
 
             var categories = (await connection.QueryAsync<CategoryViewModel>(sql, new

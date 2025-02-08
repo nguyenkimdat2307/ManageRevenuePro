@@ -18,9 +18,9 @@ namespace ManageRevenue.Controllers
 
         [Authorize]
         [HttpGet]
-        public async Task<IActionResult> GetMonthlyTransaction(int userId, int month, int year)
+        public async Task<IActionResult> GetMonthlyTransaction(int month, int year)
         {
-            var result = await _transactionService.GetMonthlyTransactionSummary(userId, month, year);
+            var result = await _transactionService.GetMonthlyTransactionSummary(month, year);
             return Ok(result);
         }
 
@@ -30,7 +30,6 @@ namespace ManageRevenue.Controllers
         {
             var request = new TransactionViewModel
             {
-                UserId = transactionRequestModel.UserId,
                 Amount = transactionRequestModel.Amount,
                 CategoryId = transactionRequestModel.CategoryId,
                 Date = transactionRequestModel.Date,
