@@ -3,28 +3,8 @@
   "WorkspaceRootPath": "E:\\ProjectDev3\\ManageRevenue\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3D1B3112-8597-497D-8B9D-46549F801E8B}|ManageRevenue.DAL\\ManageRevenue.DAL.csproj|e:\\projectdev3\\managerevenue\\managerevenue.dal\\repositories\\transactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D1B3112-8597-497D-8B9D-46549F801E8B}|ManageRevenue.DAL\\ManageRevenue.DAL.csproj|solutionrelative:managerevenue.dal\\repositories\\transactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8CD2EEAB-629F-4281-80CA-3D7E69C43A5B}|ManageRevenue.BLL\\ManageRevenue.BLL.csproj|e:\\projectdev3\\managerevenue\\managerevenue.bll\\services\\transactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8CD2EEAB-629F-4281-80CA-3D7E69C43A5B}|ManageRevenue.BLL\\ManageRevenue.BLL.csproj|solutionrelative:managerevenue.bll\\services\\transactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73C36DDD-2675-40DD-8F3A-7A744D92B452}|ManageRevenue\\ManageRevenue.csproj|e:\\projectdev3\\managerevenue\\managerevenue\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73C36DDD-2675-40DD-8F3A-7A744D92B452}|ManageRevenue\\ManageRevenue.csproj|solutionrelative:managerevenue\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{44C64DF5-CBF9-42F5-A68A-EE0D09A7DF49}|ManageRevenue.Domain\\ManageRevenue.Domain.csproj|e:\\projectdev3\\managerevenue\\managerevenue.domain\\models\\transactionsummaryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{44C64DF5-CBF9-42F5-A68A-EE0D09A7DF49}|ManageRevenue.Domain\\ManageRevenue.Domain.csproj|solutionrelative:managerevenue.domain\\models\\transactionsummaryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8CD2EEAB-629F-4281-80CA-3D7E69C43A5B}|ManageRevenue.BLL\\ManageRevenue.BLL.csproj|e:\\projectdev3\\managerevenue\\managerevenue.bll\\interfaces\\itransactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8CD2EEAB-629F-4281-80CA-3D7E69C43A5B}|ManageRevenue.BLL\\ManageRevenue.BLL.csproj|solutionrelative:managerevenue.bll\\interfaces\\itransactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{73C36DDD-2675-40DD-8F3A-7A744D92B452}|ManageRevenue\\ManageRevenue.csproj|e:\\projectdev3\\managerevenue\\managerevenue\\models\\category\\categoryrequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73C36DDD-2675-40DD-8F3A-7A744D92B452}|ManageRevenue\\ManageRevenue.csproj|solutionrelative:managerevenue\\models\\category\\categoryrequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D1B3112-8597-497D-8B9D-46549F801E8B}|ManageRevenue.DAL\\ManageRevenue.DAL.csproj|e:\\projectdev3\\managerevenue\\managerevenue.dal\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D1B3112-8597-497D-8B9D-46549F801E8B}|ManageRevenue.DAL\\ManageRevenue.DAL.csproj|solutionrelative:managerevenue.dal\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8CD2EEAB-629F-4281-80CA-3D7E69C43A5B}|ManageRevenue.BLL\\ManageRevenue.BLL.csproj|e:\\projectdev3\\managerevenue\\managerevenue.bll\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,8 +15,40 @@
       "RelativeMoniker": "D:0:0:{73C36DDD-2675-40DD-8F3A-7A744D92B452}|ManageRevenue\\ManageRevenue.csproj|solutionrelative:managerevenue\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D1B3112-8597-497D-8B9D-46549F801E8B}|ManageRevenue.DAL\\ManageRevenue.DAL.csproj|e:\\projectdev3\\managerevenue\\managerevenue.dal\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D1B3112-8597-497D-8B9D-46549F801E8B}|ManageRevenue.DAL\\ManageRevenue.DAL.csproj|solutionrelative:managerevenue.dal\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{73C36DDD-2675-40DD-8F3A-7A744D92B452}|ManageRevenue\\ManageRevenue.csproj|e:\\projectdev3\\managerevenue\\managerevenue\\models\\category\\categoryresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C36DDD-2675-40DD-8F3A-7A744D92B452}|ManageRevenue\\ManageRevenue.csproj|solutionrelative:managerevenue\\models\\category\\categoryresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44C64DF5-CBF9-42F5-A68A-EE0D09A7DF49}|ManageRevenue.Domain\\ManageRevenue.Domain.csproj|e:\\projectdev3\\managerevenue\\managerevenue.domain\\models\\categoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44C64DF5-CBF9-42F5-A68A-EE0D09A7DF49}|ManageRevenue.Domain\\ManageRevenue.Domain.csproj|solutionrelative:managerevenue.domain\\models\\categoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C36DDD-2675-40DD-8F3A-7A744D92B452}|ManageRevenue\\ManageRevenue.csproj|e:\\projectdev3\\managerevenue\\managerevenue\\models\\category\\categoryrequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C36DDD-2675-40DD-8F3A-7A744D92B452}|ManageRevenue\\ManageRevenue.csproj|solutionrelative:managerevenue\\models\\category\\categoryrequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C36DDD-2675-40DD-8F3A-7A744D92B452}|ManageRevenue\\ManageRevenue.csproj|e:\\projectdev3\\managerevenue\\managerevenue\\models\\transaction\\transactionrequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C36DDD-2675-40DD-8F3A-7A744D92B452}|ManageRevenue\\ManageRevenue.csproj|solutionrelative:managerevenue\\models\\transaction\\transactionrequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C36DDD-2675-40DD-8F3A-7A744D92B452}|ManageRevenue\\ManageRevenue.csproj|e:\\projectdev3\\managerevenue\\managerevenue\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C36DDD-2675-40DD-8F3A-7A744D92B452}|ManageRevenue\\ManageRevenue.csproj|solutionrelative:managerevenue\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D1B3112-8597-497D-8B9D-46549F801E8B}|ManageRevenue.DAL\\ManageRevenue.DAL.csproj|e:\\projectdev3\\managerevenue\\managerevenue.dal\\repositories\\transactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D1B3112-8597-497D-8B9D-46549F801E8B}|ManageRevenue.DAL\\ManageRevenue.DAL.csproj|solutionrelative:managerevenue.dal\\repositories\\transactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD2EEAB-629F-4281-80CA-3D7E69C43A5B}|ManageRevenue.BLL\\ManageRevenue.BLL.csproj|e:\\projectdev3\\managerevenue\\managerevenue.bll\\services\\transactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CD2EEAB-629F-4281-80CA-3D7E69C43A5B}|ManageRevenue.BLL\\ManageRevenue.BLL.csproj|solutionrelative:managerevenue.bll\\services\\transactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44C64DF5-CBF9-42F5-A68A-EE0D09A7DF49}|ManageRevenue.Domain\\ManageRevenue.Domain.csproj|e:\\projectdev3\\managerevenue\\managerevenue.domain\\models\\transactionsummaryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44C64DF5-CBF9-42F5-A68A-EE0D09A7DF49}|ManageRevenue.Domain\\ManageRevenue.Domain.csproj|solutionrelative:managerevenue.domain\\models\\transactionsummaryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD2EEAB-629F-4281-80CA-3D7E69C43A5B}|ManageRevenue.BLL\\ManageRevenue.BLL.csproj|e:\\projectdev3\\managerevenue\\managerevenue.bll\\interfaces\\itransactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CD2EEAB-629F-4281-80CA-3D7E69C43A5B}|ManageRevenue.BLL\\ManageRevenue.BLL.csproj|solutionrelative:managerevenue.bll\\interfaces\\itransactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8CD2EEAB-629F-4281-80CA-3D7E69C43A5B}|ManageRevenue.BLL\\ManageRevenue.BLL.csproj|e:\\projectdev3\\managerevenue\\managerevenue.bll\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -74,86 +86,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 153,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TransactionRepository.cs",
-              "DocumentMoniker": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue.DAL\\Repositories\\TransactionRepository.cs",
-              "RelativeDocumentMoniker": "ManageRevenue.DAL\\Repositories\\TransactionRepository.cs",
-              "ToolTip": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue.DAL\\Repositories\\TransactionRepository.cs",
-              "RelativeToolTip": "ManageRevenue.DAL\\Repositories\\TransactionRepository.cs",
-              "ViewState": "AQIAACsAAAAAAAAAAAArwDEAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T09:08:48.541Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TransactionSummaryViewModel.cs",
-              "DocumentMoniker": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue.Domain\\Models\\TransactionSummaryViewModel.cs",
-              "RelativeDocumentMoniker": "ManageRevenue.Domain\\Models\\TransactionSummaryViewModel.cs",
-              "ToolTip": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue.Domain\\Models\\TransactionSummaryViewModel.cs",
-              "RelativeToolTip": "ManageRevenue.Domain\\Models\\TransactionSummaryViewModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T09:07:31.172Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TransactionService.cs",
-              "DocumentMoniker": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue.BLL\\Services\\TransactionService.cs",
-              "RelativeDocumentMoniker": "ManageRevenue.BLL\\Services\\TransactionService.cs",
-              "ToolTip": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue.BLL\\Services\\TransactionService.cs",
-              "RelativeToolTip": "ManageRevenue.BLL\\Services\\TransactionService.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAD4vyUAAABFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T09:03:33.178Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ITransactionService.cs",
-              "DocumentMoniker": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue.BLL\\Interfaces\\ITransactionService.cs",
-              "RelativeDocumentMoniker": "ManageRevenue.BLL\\Interfaces\\ITransactionService.cs",
-              "ToolTip": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue.BLL\\Interfaces\\ITransactionService.cs",
-              "RelativeToolTip": "ManageRevenue.BLL\\Interfaces\\ITransactionService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T09:03:14.779Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TransactionController.cs",
-              "DocumentMoniker": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue\\Controllers\\TransactionController.cs",
-              "RelativeDocumentMoniker": "ManageRevenue\\Controllers\\TransactionController.cs",
-              "ToolTip": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue\\Controllers\\TransactionController.cs",
-              "RelativeToolTip": "ManageRevenue\\Controllers\\TransactionController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T09:02:45.081Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CategoryRequestModel.cs",
-              "DocumentMoniker": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue\\Models\\Category\\CategoryRequestModel.cs",
-              "RelativeDocumentMoniker": "ManageRevenue\\Models\\Category\\CategoryRequestModel.cs",
-              "ToolTip": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue\\Models\\Category\\CategoryRequestModel.cs",
-              "RelativeToolTip": "ManageRevenue\\Models\\Category\\CategoryRequestModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T09:02:09.846Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -164,7 +98,158 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CategoryResponseModel.cs",
+              "DocumentMoniker": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue\\Models\\Category\\CategoryResponseModel.cs",
+              "RelativeDocumentMoniker": "ManageRevenue\\Models\\Category\\CategoryResponseModel.cs",
+              "ToolTip": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue\\Models\\Category\\CategoryResponseModel.cs",
+              "RelativeToolTip": "ManageRevenue\\Models\\Category\\CategoryResponseModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T15:17:07.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CategoryViewModel.cs",
+              "DocumentMoniker": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue.Domain\\Models\\CategoryViewModel.cs",
+              "RelativeDocumentMoniker": "ManageRevenue.Domain\\Models\\CategoryViewModel.cs",
+              "ToolTip": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue.Domain\\Models\\CategoryViewModel.cs",
+              "RelativeToolTip": "ManageRevenue.Domain\\Models\\CategoryViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T15:16:14.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TransactionRequestModel.cs",
+              "DocumentMoniker": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue\\Models\\Transaction\\TransactionRequestModel.cs",
+              "RelativeDocumentMoniker": "ManageRevenue\\Models\\Transaction\\TransactionRequestModel.cs",
+              "ToolTip": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue\\Models\\Transaction\\TransactionRequestModel.cs",
+              "RelativeToolTip": "ManageRevenue\\Models\\Transaction\\TransactionRequestModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T09:13:59.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CategoryRequestModel.cs",
+              "DocumentMoniker": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue\\Models\\Category\\CategoryRequestModel.cs",
+              "RelativeDocumentMoniker": "ManageRevenue\\Models\\Category\\CategoryRequestModel.cs",
+              "ToolTip": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue\\Models\\Category\\CategoryRequestModel.cs",
+              "RelativeToolTip": "ManageRevenue\\Models\\Category\\CategoryRequestModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T09:02:09.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "ManageRevenue\\Controllers\\CategoryController.cs",
+              "ToolTip": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "ManageRevenue\\Controllers\\CategoryController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAowEcAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T08:43:47.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue.BLL\\Services\\CategoryService.cs",
+              "RelativeDocumentMoniker": "ManageRevenue.BLL\\Services\\CategoryService.cs",
+              "ToolTip": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue.BLL\\Services\\CategoryService.cs",
+              "RelativeToolTip": "ManageRevenue.BLL\\Services\\CategoryService.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAewCQAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T08:43:35.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue.DAL\\Repositories\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "ManageRevenue.DAL\\Repositories\\CategoryRepository.cs",
+              "ToolTip": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue.DAL\\Repositories\\CategoryRepository.cs",
+              "RelativeToolTip": "ManageRevenue.DAL\\Repositories\\CategoryRepository.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAwwBgAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T08:56:16.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TransactionController.cs",
+              "DocumentMoniker": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue\\Controllers\\TransactionController.cs",
+              "RelativeDocumentMoniker": "ManageRevenue\\Controllers\\TransactionController.cs",
+              "ToolTip": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue\\Controllers\\TransactionController.cs",
+              "RelativeToolTip": "ManageRevenue\\Controllers\\TransactionController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T09:02:45.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ITransactionService.cs",
+              "DocumentMoniker": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue.BLL\\Interfaces\\ITransactionService.cs",
+              "RelativeDocumentMoniker": "ManageRevenue.BLL\\Interfaces\\ITransactionService.cs",
+              "ToolTip": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue.BLL\\Interfaces\\ITransactionService.cs",
+              "RelativeToolTip": "ManageRevenue.BLL\\Interfaces\\ITransactionService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T09:03:14.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TransactionService.cs",
+              "DocumentMoniker": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue.BLL\\Services\\TransactionService.cs",
+              "RelativeDocumentMoniker": "ManageRevenue.BLL\\Services\\TransactionService.cs",
+              "ToolTip": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue.BLL\\Services\\TransactionService.cs",
+              "RelativeToolTip": "ManageRevenue.BLL\\Services\\TransactionService.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAD4vyUAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T09:03:33.178Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "TransactionSummaryViewModel.cs",
+              "DocumentMoniker": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue.Domain\\Models\\TransactionSummaryViewModel.cs",
+              "RelativeDocumentMoniker": "ManageRevenue.Domain\\Models\\TransactionSummaryViewModel.cs",
+              "ToolTip": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue.Domain\\Models\\TransactionSummaryViewModel.cs",
+              "RelativeToolTip": "ManageRevenue.Domain\\Models\\TransactionSummaryViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T09:07:31.172Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TransactionRepository.cs",
+              "DocumentMoniker": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue.DAL\\Repositories\\TransactionRepository.cs",
+              "RelativeDocumentMoniker": "ManageRevenue.DAL\\Repositories\\TransactionRepository.cs",
+              "ToolTip": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue.DAL\\Repositories\\TransactionRepository.cs",
+              "RelativeToolTip": "ManageRevenue.DAL\\Repositories\\TransactionRepository.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAArwDEAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T09:08:48.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue\\Program.cs",
               "RelativeDocumentMoniker": "ManageRevenue\\Program.cs",
@@ -172,12 +257,11 @@
               "RelativeToolTip": "ManageRevenue\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T08:49:54.206Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-08T08:49:54.206Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "SessionInfo.cs",
               "DocumentMoniker": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue.BLL\\Common\\SessionInfo.cs",
               "RelativeDocumentMoniker": "ManageRevenue.BLL\\Common\\SessionInfo.cs",
@@ -185,12 +269,11 @@
               "RelativeToolTip": "ManageRevenue.BLL\\Common\\SessionInfo.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T08:49:24.733Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-08T08:49:24.733Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "ISessionInfo.cs",
               "DocumentMoniker": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue.BLL\\Common\\ISessionInfo.cs",
               "RelativeDocumentMoniker": "ManageRevenue.BLL\\Common\\ISessionInfo.cs",
@@ -198,51 +281,23 @@
               "RelativeToolTip": "ManageRevenue.BLL\\Common\\ISessionInfo.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T08:48:53.072Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-08T08:48:53.072Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CategoryService.cs",
-              "DocumentMoniker": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue.BLL\\Services\\CategoryService.cs",
-              "RelativeDocumentMoniker": "ManageRevenue.BLL\\Services\\CategoryService.cs",
-              "ToolTip": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue.BLL\\Services\\CategoryService.cs",
-              "RelativeToolTip": "ManageRevenue.BLL\\Services\\CategoryService.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAIA8wBsAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T08:43:35.329Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CategoryRepository.cs",
-              "DocumentMoniker": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue.DAL\\Repositories\\CategoryRepository.cs",
-              "RelativeDocumentMoniker": "ManageRevenue.DAL\\Repositories\\CategoryRepository.cs",
-              "ToolTip": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue.DAL\\Repositories\\CategoryRepository.cs",
-              "RelativeToolTip": "ManageRevenue.DAL\\Repositories\\CategoryRepository.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAlwDMAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T08:56:16.846Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ManageRevenue.BLL",
+              "DocumentIndex": 16,
+              "Title": "ManageRevenue.BLL.csproj",
               "DocumentMoniker": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue.BLL\\ManageRevenue.BLL.csproj",
               "RelativeDocumentMoniker": "ManageRevenue.BLL\\ManageRevenue.BLL.csproj",
               "ToolTip": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue.BLL\\ManageRevenue.BLL.csproj",
               "RelativeToolTip": "ManageRevenue.BLL\\ManageRevenue.BLL.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-08T08:48:22.19Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-08T08:48:22.19Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "UserService.cs",
               "DocumentMoniker": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue.BLL\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "ManageRevenue.BLL\\Services\\UserService.cs",
@@ -250,12 +305,11 @@
               "RelativeToolTip": "ManageRevenue.BLL\\Services\\UserService.cs",
               "ViewState": "AQIAAB0AAAAAAAAAAAAwwDcAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T08:44:11.209Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-08T08:44:11.209Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "IUserService.cs",
               "DocumentMoniker": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue.BLL\\Interfaces\\IUserService.cs",
               "RelativeDocumentMoniker": "ManageRevenue.BLL\\Interfaces\\IUserService.cs",
@@ -263,25 +317,11 @@
               "RelativeToolTip": "ManageRevenue.BLL\\Interfaces\\IUserService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T08:44:06.956Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-08T08:44:06.956Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "ManageRevenue\\Controllers\\CategoryController.cs",
-              "ToolTip": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "ManageRevenue\\Controllers\\CategoryController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T08:43:47.911Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "ICategoryService.cs",
               "DocumentMoniker": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue.BLL\\Interfaces\\ICategoryService.cs",
               "RelativeDocumentMoniker": "ManageRevenue.BLL\\Interfaces\\ICategoryService.cs",
@@ -289,8 +329,7 @@
               "RelativeToolTip": "ManageRevenue.BLL\\Interfaces\\ICategoryService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T08:43:42.222Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-08T08:43:42.222Z"
             }
           ]
         }

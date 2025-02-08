@@ -31,6 +31,7 @@ namespace ManageRevenue.BLL.Services
                 Name = categoryViewModel.Name,
                 Type = categoryViewModel.Type,
                 Color = categoryViewModel.Color,
+                Icon = categoryViewModel.Icon,
                 UserId = userId
             };
             var result = await _categoryRepository.AddCategoryManageRevenue(category);

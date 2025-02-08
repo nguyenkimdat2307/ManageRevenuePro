@@ -19,8 +19,8 @@ namespace ManageRevenue.DAL.Repositories
             var response = new Response<string>();
             using var connection = CreateConnection();
 
-            string sql = @"INSERT INTO Categories (UserId, Name, Type, Color, CreatedAt, UpdatedAt) 
-                   VALUES (@UserId, @Name, @Type, @Color, GETDATE(), GETDATE());";
+            string sql = @"INSERT INTO Categories (UserId, Name, Type, Color, Icon, CreatedAt, UpdatedAt) 
+                   VALUES (@UserId, @Name, @Type, @Color, @Icon, GETDATE(), GETDATE());";
 
             await connection.ExecuteAsync(sql, categoryViewModel);
 
@@ -47,7 +47,7 @@ namespace ManageRevenue.DAL.Repositories
             using var connection = CreateConnection();
 
             string sql = @"
-                SELECT Id, UserId, Name, Type, Color, CreatedAt, UpdatedAt
+                SELECT Id, UserId, Name, Type, Color, Icon, CreatedAt, UpdatedAt
                 FROM Categories
                 WHERE UserId = @UserId;
             ";
