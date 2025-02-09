@@ -39,6 +39,18 @@ namespace ManageRevenue.BLL.Services
             return response;
         }
 
+        public async Task<Response<string>> DeleteCategorySummaryId(int categoryId)
+        {
+            var result = await _categoryRepository.DeleteCategoryManageRevenue(categoryId);
+            return result;
+        }
+
+        public async Task<Response<CategoryViewModel>> GetCategoryByIdSummary(int categoryId)
+        {
+            var result = await _categoryRepository.GetCategoryById(categoryId);
+            return result;
+        }
+
         public async Task<Response<CategoryViewModel>> GetCategoryRevenuByUserId()
         {
             var response = new Response<CategoryViewModel>();
@@ -52,6 +64,31 @@ namespace ManageRevenue.BLL.Services
             }
             var result = await _categoryRepository.GetCategoryManageRevenue(userId);
             response.DataList = result.DataList;
+            return response;
+        }
+
+        public async Task<Response<string>> UpdateCategoryManageRevenue(CategoryViewModel categoryViewModel)
+        {
+            var response = new Response<string>();
+            int userId = _sessionInfo.GetUserId();
+
+            if (userId == 0)
+            {
+                response.Code = 401;
+                response.Message = "Unauthorized";
+                return response;
+            }
+            var param = new CategoryViewModel
+            {
+                Id = categoryViewModel.Id,
+                UserId = userId,
+                Color = categoryViewModel.Color,
+                Icon = categoryViewModel.Icon,
+                Type = categoryViewModel.Type,
+                Name = categoryViewModel.Name
+            };
+            var result = await _categoryRepository.UpdateCategoryManageRevenue(param);
+            response.Message = result.Message;
             return response;
         }
     }

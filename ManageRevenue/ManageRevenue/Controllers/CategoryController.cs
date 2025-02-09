@@ -31,7 +31,7 @@ namespace ManageRevenue.Controllers
                 Icon = categoryRequestModel.Icon
             };
             var result = await _categoryService.AddCategoryRevenu(request);
-            return  Ok(result); ;
+            return Ok(result); ;
         }
         [Authorize]
         [HttpGet("get-category")]
@@ -77,5 +77,34 @@ namespace ManageRevenue.Controllers
             return Ok(response);
         }
 
+        [Authorize]
+        [HttpGet("get-by-id-category")]
+        public async Task<IActionResult> GetCategoryByID(int categoryId)
+        {
+            var result = await _categoryService.GetCategoryByIdSummary(categoryId);
+            return Ok(result); ;
+        }
+        [Authorize]
+        [HttpDelete("delete-category")]
+        public async Task<IActionResult> DeleteCategoryByID(int categoryId)
+        {
+            var result = await _categoryService.DeleteCategorySummaryId(categoryId);
+            return Ok(result); ;
+        }
+        [Authorize]
+        [HttpPost("update-category")]
+        public async Task<IActionResult> UpdateCategory(UpdateCategoryRequestModel categoryRequestModel)
+        {
+            var request = new CategoryViewModel
+            {
+                Id = categoryRequestModel.Id,
+                Name = categoryRequestModel.Name,
+                Type = categoryRequestModel.Type,
+                Color = categoryRequestModel.Color,
+                Icon = categoryRequestModel.Icon
+            };
+            var result = await _categoryService.UpdateCategoryManageRevenue(request);
+            return Ok(result); ;
+        }
     }
 }

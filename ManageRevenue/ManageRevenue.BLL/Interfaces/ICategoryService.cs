@@ -7,5 +7,9 @@ namespace ManageRevenue.BLL.Interfaces
     {
         Task<Response<string>> AddCategoryRevenu(CategoryViewModel categoryViewModel);
         Task<Response<CategoryViewModel>> GetCategoryRevenuByUserId();
+        Task<Response<CategoryViewModel>> GetCategoryByIdSummary(int categoryId);
+        Task<Response<string>> UpdateCategoryManageRevenue(CategoryViewModel categoryViewModel);
+        Task<Response<string>> DeleteCategorySummaryId(int categoryId);
+
     }
 }

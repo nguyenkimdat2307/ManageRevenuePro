@@ -44,7 +44,7 @@ namespace ManageRevenue.BLL.Services
                 return new AuthResponse { Success = false, Message = "Invalid credentials" };
 
             var token = GenerateJwtToken(user);
-            return new AuthResponse { Success = true, Token = token };
+            return new AuthResponse { Success = true, Token = token, UserName = model.Username };
         }
 
         private string GenerateJwtToken(UserViewModel user)

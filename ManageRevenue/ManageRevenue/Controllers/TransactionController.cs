@@ -25,7 +25,7 @@ namespace ManageRevenue.Controllers
         }
 
         [Authorize]
-        [HttpPost]
+        [HttpPost("new-transaction")]
         public async Task<IActionResult> AddTransaction(TransactionRequestModel transactionRequestModel)
         {
             var request = new TransactionViewModel
@@ -37,6 +37,37 @@ namespace ManageRevenue.Controllers
                 TransactionType = transactionRequestModel.TransactionType,
             };
             var result = await _transactionService.AddTransactionSummary(request);
+            return Ok(result);
+        }
+
+        [Authorize]
+        [HttpPost("update-transaction")]
+        public async Task<IActionResult> UpdateTransaction(UpdateTransactionRequestModel transactionRequestModel)
+        {
+            var request = new TransactionViewModel
+            {
+                Id = transactionRequestModel.TransactionId,
+                NewAmount = transactionRequestModel.NewAmount,
+                CategoryId = transactionRequestModel.CategoryId,
+                Date = transactionRequestModel.NewDate,
+                Description = transactionRequestModel.Description,
+                TransactionType = transactionRequestModel.TransactionType,
+            };
+            var result = await _transactionService.UpdateTransactionSummary(request);
+            return Ok(result);
+        }
+        [Authorize]
+        [HttpPost("delete-transaction")]
+        public async Task<IActionResult> DeleteTransaction(int transactionId)
+        {
+            var result = await _transactionService.DeleteTransactionSummary(transactionId);
+            return Ok(result);
+        }
+        [Authorize]
+        [HttpGet("get-by-id-transaction")]
+        public async Task<IActionResult> GetByIdTransaction(int transactionId)
+        {
+            var result = await _transactionService.GetTransactionById(transactionId);
             return Ok(result);
         }
     }
