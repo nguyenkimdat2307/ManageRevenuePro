@@ -32,10 +32,41 @@ namespace ManageRevenue.BLL.Services
             return result;
         }
 
+        public async Task<Response<string>> DeleteTransactionSummary(int transactionId)
+        {
+            int userId = _sessionInfo.GetUserId();
+            var result = await _transactionRepository.DeleteTransactionRevenue(transactionId,userId);
+            return result;
+        }
+
         public async Task<TransactionSummaryViewModel> GetMonthlyTransactionSummary(int month, int year)
         {
             int userId = _sessionInfo.GetUserId();
             var result = await _transactionRepository.GetMonthlyTransactionSummary(userId, month, year);
+            return result;
+        }
+
+        public async Task<Response<TransactionDetailViewModel>> GetTransactionById(int transactionId)
+        {
+            var result = await _transactionRepository.GetTransactionById(transactionId);
+            return result;
+        }
+
+        public async Task<Response<string>> UpdateTransactionSummary(TransactionViewModel transactionViewModel)
+        {
+            int userId = _sessionInfo.GetUserId();
+
+            var param = new TransactionViewModel
+            {
+                Id = transactionViewModel.Id,
+                CategoryId = transactionViewModel.CategoryId,
+                UserId = userId,
+                Date = transactionViewModel.Date,
+                Description = transactionViewModel.Description,
+                TransactionType = transactionViewModel.TransactionType,
+                NewAmount = transactionViewModel.NewAmount
+            };
+            var result = await _transactionRepository.UpdateTransactionRevenue(param);
             return result;
         }
     }

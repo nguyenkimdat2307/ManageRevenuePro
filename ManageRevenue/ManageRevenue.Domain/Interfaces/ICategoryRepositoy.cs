@@ -9,5 +9,6 @@ namespace ManageRevenue.Domain.Interfaces
         Task<Response<string>> DeleteCategoryManageRevenue(int categoryId);
         Task<Response<string>> UpdateCategoryManageRevenue(CategoryViewModel categoryViewModel);
         Task<Response<CategoryViewModel>> GetCategoryManageRevenue(int userId);
+        Task<Response<CategoryViewModel>> GetCategoryById(int categoryId);
     }
 }

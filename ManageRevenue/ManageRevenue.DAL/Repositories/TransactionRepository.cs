@@ -2,8 +2,10 @@
 using ManageRevenue.Domain.Common;
 using ManageRevenue.Domain.Interfaces;
 using ManageRevenue.Domain.Models;
+using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using System.Data;
+using System.Transactions;
 
 namespace ManageRevenue.DAL.Repositories
 {
@@ -25,7 +27,8 @@ namespace ManageRevenue.DAL.Repositories
                 CategoryId = transactionViewModel.CategoryId,
                 Amount = transactionViewModel.Amount,
                 Description = transactionViewModel.Description,
-                TransactionType = transactionViewModel.TransactionType
+                TransactionType = transactionViewModel.TransactionType,
+                Date = transactionViewModel.Date
             };
 
             // Thực thi stored procedure
@@ -39,7 +42,18 @@ namespace ManageRevenue.DAL.Repositories
             return response;
         }
 
+        public async Task<Response<string>> DeleteTransactionRevenue(int transactionId, int userId)
+        {
+            var response = new Response<string>();
+            using var connection = CreateConnection();
 
+            var parameters = new { TransactionId = transactionId, UserId = userId };
+
+            await connection.ExecuteAsync("DeleteTransaction", parameters, commandType: CommandType.StoredProcedure);
+
+            response.Message = "Transaction deleted successfully.";
+            return response;
+        }
 
         public async Task<TransactionSummaryViewModel> GetMonthlyTransactionSummary(int userId, int month, int year)
         {
@@ -78,6 +92,50 @@ namespace ManageRevenue.DAL.Repositories
             return response;
         }
 
+        public async Task<Response<TransactionDetailViewModel>> GetTransactionById(int transactionId)
+        {
+            var response = new Response<TransactionDetailViewModel>();
+            using var connection = CreateConnection();
 
+            string sql = @"SELECT t.Id, t.UserId, t.CategoryId, c.Name AS CategoryName, 
+                          t.Amount, t.Description, t.Date, t.CreatedAt, t.UpdatedAt
+                   FROM Transactions t
+                   LEFT JOIN Categories c ON t.CategoryId = c.Id
+                   WHERE t.Id = @TransactionId";
+
+            var result =  await connection.QueryFirstOrDefaultAsync<TransactionDetailViewModel>(sql, new { TransactionId = transactionId });
+            response.Data = result;
+            response.Message = "Successfully retrieved transation.";
+            response.Code = StatusCodes.Status200OK;
+            return response;
+        }
+
+        public async Task<Response<string>> UpdateTransactionRevenue(TransactionViewModel transactionViewModel)
+        {
+            var response = new Response<string>();
+            using var connection = CreateConnection();
+
+            // Gọi stored procedure UpdateTransaction
+            var parameters = new
+            {
+                TransactionId = transactionViewModel.Id,
+                UserId = transactionViewModel.UserId,
+                CategoryId = transactionViewModel.CategoryId,
+                Description = transactionViewModel.Description,
+                TransactionType = transactionViewModel.TransactionType,
+                NewAmount = transactionViewModel.NewAmount,
+                NewDate = transactionViewModel.Date
+            };
+
+            // Thực thi stored procedure
+            await connection.ExecuteAsync(
+                "UpdateTransaction",
+                parameters,
+                commandType: CommandType.StoredProcedure
+            );
+
+            response.Message = "Transaction update successfully.";
+            return response;
+        }
     }
 }

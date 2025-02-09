@@ -41,6 +41,22 @@ namespace ManageRevenue.DAL.Repositories
             return response;
         }
 
+        public async Task<Response<CategoryViewModel>> GetCategoryById(int categoryId)
+        {
+            var response = new Response<CategoryViewModel>();
+            using var connection = CreateConnection();
+
+            string sql = @"SELECT Id, UserId, Name, Type, CreatedAt, UpdatedAt, Color, Icon 
+                   FROM Categories 
+                   WHERE Id = @CategoryId";
+
+            var categoryById = await connection.QueryFirstOrDefaultAsync<CategoryViewModel>(sql, new { CategoryId = categoryId });
+            response.Data = categoryById;
+            response.Message = "Successfully retrieved categories.";
+            response.Code = StatusCodes.Status200OK;
+            return response;
+        }
+
         public async Task<Response<CategoryViewModel>> GetCategoryManageRevenue(int userId)
         {
             var response = new Response<CategoryViewModel>();
@@ -73,6 +89,8 @@ namespace ManageRevenue.DAL.Repositories
                   UPDATE Categories 
                     SET Name = @Name, 
                     Type = @Type, 
+                    Color = @Color,
+                    Icon = @Icon,
                     UpdatedAt = GETDATE()
                     WHERE Id = @Id AND UserId = @UserId";
 
@@ -81,6 +99,5 @@ namespace ManageRevenue.DAL.Repositories
             response.Message = rowsAffected > 0 ? "Category updated successfully." : "Category not found or you don't have permission.";
             return response;
         }
-
     }
 }
