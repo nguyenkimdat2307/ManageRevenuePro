@@ -27,7 +27,8 @@ namespace ManageRevenue.Controllers
             {
                 Name = categoryRequestModel.Name,
                 Type = categoryRequestModel.Type,
-                Color = categoryRequestModel.Color
+                Color = categoryRequestModel.Color,
+                Icon = categoryRequestModel.Icon
             };
             var result = await _categoryService.AddCategoryRevenu(request);
             return  Ok(result); ;
@@ -54,7 +55,8 @@ namespace ManageRevenue.Controllers
                         UserId = category.UserId,
                         Name = category.Name,
                         Type = category.Type,
-                        Color = category.Color
+                        Color = category.Color,
+                        Icon = category.Icon
                     }).ToList(),
 
                 ListCategorySpend = categoryResponse.DataList
@@ -65,7 +67,8 @@ namespace ManageRevenue.Controllers
                         UserId = category.UserId,
                         Name = category.Name,
                         Type = category.Type,
-                        Color = category.Color
+                        Color = category.Color,
+                        Icon = category.Icon
                     }).ToList()
             }
         }
