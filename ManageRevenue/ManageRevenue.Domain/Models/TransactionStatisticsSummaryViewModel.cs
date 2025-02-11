@@ -17,9 +17,7 @@ namespace ManageRevenue.Domain.Models
 
     public class TransactionStatisticsSpendandCollect
     {
-        public int Id { get; set; }
-        public int UserId { get; set; }
-        public decimal Amount { get; set; }
+        public decimal TotalAmount { get; set; }
         public int CategoryId { get; set; }
         public string CategoryName { get; set; }
         public string Color { get; set; }

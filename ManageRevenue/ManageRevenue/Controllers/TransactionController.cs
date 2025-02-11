@@ -72,9 +72,9 @@ namespace ManageRevenue.Controllers
         }
         [Authorize]
         [HttpGet("get-transaction-statistics")]
-        public async Task<IActionResult> GetTransactionStatis(int year)
+        public async Task<IActionResult> GetTransactionStatis(int year, int month)
         {
-            var result = await _transactionService.GetTransactionStatisticsSummary(year);
+            var result = await _transactionService.GetTransactionStatisticsSummary(year,month);
             return Ok(result);
         }
     }

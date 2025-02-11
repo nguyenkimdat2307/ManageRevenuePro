@@ -10,6 +10,6 @@ namespace ManageRevenue.Domain.Interfaces
         Task<Response<string>> DeleteTransactionRevenue(int transactionId, int userId);
         Task<TransactionSummaryViewModel> GetMonthlyTransactionSummary(int userId, int month, int year);
         Task<Response<TransactionDetailViewModel>> GetTransactionById(int transactionId);
-        Task<Response<TransactionStatisticsSummaryViewModel>> GetTransactionStatisticsSummary(int userId, int year);
+        Task<Response<TransactionStatisticsSummaryViewModel>> GetTransactionStatisticsSummary(int userId, int year, int month);
     }
 }
