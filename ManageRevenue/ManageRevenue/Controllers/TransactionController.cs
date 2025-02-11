@@ -70,5 +70,12 @@ namespace ManageRevenue.Controllers
             var result = await _transactionService.GetTransactionById(transactionId);
             return Ok(result);
         }
+        [Authorize]
+        [HttpGet("get-transaction-statistics")]
+        public async Task<IActionResult> GetTransactionStatis(int year)
+        {
+            var result = await _transactionService.GetTransactionStatisticsSummary(year);
+            return Ok(result);
+        }
     }
 }

@@ -3,6 +3,7 @@ using ManageRevenue.BLL.Interfaces;
 using ManageRevenue.Domain.Common;
 using ManageRevenue.Domain.Interfaces;
 using ManageRevenue.Domain.Models;
+using System.Transactions;
 
 namespace ManageRevenue.BLL.Services
 {
@@ -49,6 +50,13 @@ namespace ManageRevenue.BLL.Services
         public async Task<Response<TransactionDetailViewModel>> GetTransactionById(int transactionId)
         {
             var result = await _transactionRepository.GetTransactionById(transactionId);
+            return result;
+        }
+
+        public async Task<Response<TransactionStatisticsSummaryViewModel>> GetTransactionStatisticsSummary(int year)
+        {
+            int userId = _sessionInfo.GetUserId();
+            var result = await _transactionRepository.GetTransactionStatisticsSummary(userId,year);
             return result;
         }
 

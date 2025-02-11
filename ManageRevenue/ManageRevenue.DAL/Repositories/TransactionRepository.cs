@@ -137,5 +137,31 @@ namespace ManageRevenue.DAL.Repositories
             response.Message = "Transaction update successfully.";
             return response;
         }
+        public async Task<Response<TransactionStatisticsSummaryViewModel>> GetTransactionStatisticsSummary(int userId, int year)
+        {
+            var response = new Response<TransactionStatisticsSummaryViewModel>();
+            using var connection = CreateConnection();
+
+            var multi = await connection.QueryMultipleAsync(
+                "GetAnnualTransactionSummary",
+                new { UserId = userId, Year = year },
+                commandType: CommandType.StoredProcedure
+            );
+
+            var listSpend = (await multi.ReadAsync<TransactionStatisticsSpendandCollect>()).ToList();
+
+            var listCollect = (await multi.ReadAsync<TransactionStatisticsSpendandCollect>()).ToList();
+
+            var transactionStatistics = await multi.ReadFirstOrDefaultAsync<TransactionStatistics>();
+
+            // Gán dữ liệu vào ViewModel
+            response.DataList = new List<TransactionStatisticsSummaryViewModel>
+            {
+                new TransactionStatisticsSummaryViewModel{TotalStatistics = transactionStatistics,listSpend = listSpend, listCollect = listCollect}
+            };
+            response.Message = "Successfully retrieved transaction statistics.";
+            return response;
+        }
+
     }
 }
