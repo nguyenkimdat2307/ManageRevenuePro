@@ -53,10 +53,10 @@ namespace ManageRevenue.BLL.Services
             return result;
         }
 
-        public async Task<Response<TransactionStatisticsSummaryViewModel>> GetTransactionStatisticsSummary(int year)
+        public async Task<Response<TransactionStatisticsSummaryViewModel>> GetTransactionStatisticsSummary(int year, int month)
         {
             int userId = _sessionInfo.GetUserId();
-            var result = await _transactionRepository.GetTransactionStatisticsSummary(userId,year);
+            var result = await _transactionRepository.GetTransactionStatisticsSummary(userId,year,month);
             return result;
         }
 

@@ -137,14 +137,14 @@ namespace ManageRevenue.DAL.Repositories
             response.Message = "Transaction update successfully.";
             return response;
         }
-        public async Task<Response<TransactionStatisticsSummaryViewModel>> GetTransactionStatisticsSummary(int userId, int year)
+        public async Task<Response<TransactionStatisticsSummaryViewModel>> GetTransactionStatisticsSummary(int userId, int year,int month)
         {
             var response = new Response<TransactionStatisticsSummaryViewModel>();
             using var connection = CreateConnection();
 
             var multi = await connection.QueryMultipleAsync(
                 "GetAnnualTransactionSummary",
-                new { UserId = userId, Year = year },
+                new { UserId = userId, Year = year, Month = month },
                 commandType: CommandType.StoredProcedure
             );
 

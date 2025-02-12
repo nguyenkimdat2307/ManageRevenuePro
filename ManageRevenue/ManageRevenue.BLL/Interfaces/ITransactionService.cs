@@ -10,7 +10,7 @@ namespace ManageRevenue.BLL.Interfaces
         Task<Response<string>> UpdateTransactionSummary(TransactionViewModel transactionViewModel);
         Task<Response<string>> DeleteTransactionSummary(int transactionId);
         Task<Response<TransactionDetailViewModel>> GetTransactionById(int transactionId);
-        Task<Response<TransactionStatisticsSummaryViewModel>> GetTransactionStatisticsSummary(int year);
+        Task<Response<TransactionStatisticsSummaryViewModel>> GetTransactionStatisticsSummary(int year,int month);
 
     }
 }
