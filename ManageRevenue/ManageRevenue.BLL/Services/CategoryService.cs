@@ -35,7 +35,8 @@ namespace ManageRevenue.BLL.Services
                 UserId = userId
             };
             var result = await _categoryRepository.AddCategoryManageRevenue(category);
-            response.Message = "Category added successfully.";
+            response.Message = result.Message;
+            response.Code = result.Code;
             return response;
         }
 

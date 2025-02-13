@@ -19,14 +19,34 @@ namespace ManageRevenue.DAL.Repositories
             var response = new Response<string>();
             using var connection = CreateConnection();
 
-            string sql = @"INSERT INTO Categories (UserId, Name, Type, Color, Icon, CreatedAt, UpdatedAt) 
-                   VALUES (@UserId, @Name, @Type, @Color, @Icon, GETDATE(), GETDATE());";
+            // Kiểm tra xem danh mục đã tồn tại chưa
+            string checkSql = @"
+                    SELECT COUNT(*) 
+                    FROM Categories 
+                    WHERE UserId = @UserId 
+                    AND (Name = @Name OR (Color = @Color AND Icon = @Icon))";
 
-            await connection.ExecuteAsync(sql, categoryViewModel);
+            int count = await connection.ExecuteScalarAsync<int>(checkSql, categoryViewModel);
+
+            if (count > 0)
+            {
+                response.Code = StatusCodes.Status400BadRequest;
+                response.Message = "Category already exists with the same Name, Color, or Icon.";
+                return response;
+            }
+
+            // Nếu không trùng, tiến hành thêm danh mục mới
+            string insertSql = @"
+                    INSERT INTO Categories (UserId, Name, Type, Color, Icon, CreatedAt, UpdatedAt) 
+                    VALUES (@UserId, @Name, @Type, @Color, @Icon, GETDATE(), GETDATE());";
+
+            await connection.ExecuteAsync(insertSql, categoryViewModel);
 
             response.Message = "Category added successfully.";
+            response.Code = StatusCodes.Status200OK;
             return response;
         }
+
 
         public async Task<Response<string>> DeleteCategoryManageRevenue(int categoryId)
         {
