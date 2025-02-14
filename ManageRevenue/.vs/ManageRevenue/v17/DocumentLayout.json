@@ -1,8 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\ProjectDev3\\ManageRevenue\\",
+  "WorkspaceRootPath": "C:\\Users\\Admin\\OneDrive\\Documents\\ProjectFasttrack\\BackEnd\\ManageRevenuePro\\ManageRevenue\\",
   "Documents": [
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{73C36DDD-2675-40DD-8F3A-7A744D92B452}|ManageRevenue\\ManageRevenue.csproj|e:\\projectdev3\\managerevenue\\managerevenue\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{73C36DDD-2675-40DD-8F3A-7A744D92B452}|ManageRevenue\\ManageRevenue.csproj|solutionrelative:managerevenue\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -40,7 +41,86 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{44C64DF5-CBF9-42F5-A68A-EE0D09A7DF49}|ManageRevenue.Domain\\ManageRevenue.Domain.csproj|e:\\projectdev3\\managerevenue\\managerevenue.domain\\models\\transactionsummaryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+=======
+      "AbsoluteMoniker": "D:0:0:{73C36DDD-2675-40DD-8F3A-7A744D92B452}|ManageRevenue\\ManageRevenue.csproj|c:\\users\\admin\\onedrive\\documents\\projectfasttrack\\backend\\managerevenuepro\\managerevenue\\managerevenue\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C36DDD-2675-40DD-8F3A-7A744D92B452}|ManageRevenue\\ManageRevenue.csproj|solutionrelative:managerevenue\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D1B3112-8597-497D-8B9D-46549F801E8B}|ManageRevenue.DAL\\ManageRevenue.DAL.csproj|c:\\users\\admin\\onedrive\\documents\\projectfasttrack\\backend\\managerevenuepro\\managerevenue\\managerevenue.dal\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D1B3112-8597-497D-8B9D-46549F801E8B}|ManageRevenue.DAL\\ManageRevenue.DAL.csproj|solutionrelative:managerevenue.dal\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D1B3112-8597-497D-8B9D-46549F801E8B}|ManageRevenue.DAL\\ManageRevenue.DAL.csproj|c:\\users\\admin\\onedrive\\documents\\projectfasttrack\\backend\\managerevenuepro\\managerevenue\\managerevenue.dal\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D1B3112-8597-497D-8B9D-46549F801E8B}|ManageRevenue.DAL\\ManageRevenue.DAL.csproj|solutionrelative:managerevenue.dal\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C36DDD-2675-40DD-8F3A-7A744D92B452}|ManageRevenue\\ManageRevenue.csproj|c:\\users\\admin\\onedrive\\documents\\projectfasttrack\\backend\\managerevenuepro\\managerevenue\\managerevenue\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C36DDD-2675-40DD-8F3A-7A744D92B452}|ManageRevenue\\ManageRevenue.csproj|solutionrelative:managerevenue\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD2EEAB-629F-4281-80CA-3D7E69C43A5B}|ManageRevenue.BLL\\ManageRevenue.BLL.csproj|c:\\users\\admin\\onedrive\\documents\\projectfasttrack\\backend\\managerevenuepro\\managerevenue\\managerevenue.bll\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CD2EEAB-629F-4281-80CA-3D7E69C43A5B}|ManageRevenue.BLL\\ManageRevenue.BLL.csproj|solutionrelative:managerevenue.bll\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C36DDD-2675-40DD-8F3A-7A744D92B452}|ManageRevenue\\ManageRevenue.csproj|c:\\users\\admin\\onedrive\\documents\\projectfasttrack\\backend\\managerevenuepro\\managerevenue\\managerevenue\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{73C36DDD-2675-40DD-8F3A-7A744D92B452}|ManageRevenue\\ManageRevenue.csproj|solutionrelative:managerevenue\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C36DDD-2675-40DD-8F3A-7A744D92B452}|ManageRevenue\\ManageRevenue.csproj|c:\\users\\admin\\onedrive\\documents\\projectfasttrack\\backend\\managerevenuepro\\managerevenue\\managerevenue\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C36DDD-2675-40DD-8F3A-7A744D92B452}|ManageRevenue\\ManageRevenue.csproj|solutionrelative:managerevenue\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44C64DF5-CBF9-42F5-A68A-EE0D09A7DF49}|ManageRevenue.Domain\\ManageRevenue.Domain.csproj|c:\\users\\admin\\onedrive\\documents\\projectfasttrack\\backend\\managerevenuepro\\managerevenue\\managerevenue.domain\\models\\transactionsummaryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+>>>>>>> c0a32da67cda64631cc9498ef6843741458d6f12
       "RelativeMoniker": "D:0:0:{44C64DF5-CBF9-42F5-A68A-EE0D09A7DF49}|ManageRevenue.Domain\\ManageRevenue.Domain.csproj|solutionrelative:managerevenue.domain\\models\\transactionsummaryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C36DDD-2675-40DD-8F3A-7A744D92B452}|ManageRevenue\\ManageRevenue.csproj|c:\\users\\admin\\onedrive\\documents\\projectfasttrack\\backend\\managerevenuepro\\managerevenue\\managerevenue\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C36DDD-2675-40DD-8F3A-7A744D92B452}|ManageRevenue\\ManageRevenue.csproj|solutionrelative:managerevenue\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C36DDD-2675-40DD-8F3A-7A744D92B452}|ManageRevenue\\ManageRevenue.csproj|c:\\users\\admin\\onedrive\\documents\\projectfasttrack\\backend\\managerevenuepro\\managerevenue\\managerevenue\\models\\category\\categoryresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C36DDD-2675-40DD-8F3A-7A744D92B452}|ManageRevenue\\ManageRevenue.csproj|solutionrelative:managerevenue\\models\\category\\categoryresponsemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C36DDD-2675-40DD-8F3A-7A744D92B452}|ManageRevenue\\ManageRevenue.csproj|c:\\users\\admin\\onedrive\\documents\\projectfasttrack\\backend\\managerevenuepro\\managerevenue\\managerevenue\\models\\category\\categoryrequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C36DDD-2675-40DD-8F3A-7A744D92B452}|ManageRevenue\\ManageRevenue.csproj|solutionrelative:managerevenue\\models\\category\\categoryrequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C36DDD-2675-40DD-8F3A-7A744D92B452}|ManageRevenue\\ManageRevenue.csproj|c:\\users\\admin\\onedrive\\documents\\projectfasttrack\\backend\\managerevenuepro\\managerevenue\\managerevenue\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C36DDD-2675-40DD-8F3A-7A744D92B452}|ManageRevenue\\ManageRevenue.csproj|solutionrelative:managerevenue\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C36DDD-2675-40DD-8F3A-7A744D92B452}|ManageRevenue\\ManageRevenue.csproj|c:\\users\\admin\\onedrive\\documents\\projectfasttrack\\backend\\managerevenuepro\\managerevenue\\managerevenue\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{73C36DDD-2675-40DD-8F3A-7A744D92B452}|ManageRevenue\\ManageRevenue.csproj|solutionrelative:managerevenue\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C36DDD-2675-40DD-8F3A-7A744D92B452}|ManageRevenue\\ManageRevenue.csproj|c:\\users\\admin\\onedrive\\documents\\projectfasttrack\\backend\\managerevenuepro\\managerevenue\\managerevenue\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{73C36DDD-2675-40DD-8F3A-7A744D92B452}|ManageRevenue\\ManageRevenue.csproj|solutionrelative:managerevenue\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD2EEAB-629F-4281-80CA-3D7E69C43A5B}|ManageRevenue.BLL\\ManageRevenue.BLL.csproj|c:\\users\\admin\\onedrive\\documents\\projectfasttrack\\backend\\managerevenuepro\\managerevenue\\managerevenue.bll\\common\\sessioninfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CD2EEAB-629F-4281-80CA-3D7E69C43A5B}|ManageRevenue.BLL\\ManageRevenue.BLL.csproj|solutionrelative:managerevenue.bll\\common\\sessioninfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD2EEAB-629F-4281-80CA-3D7E69C43A5B}|ManageRevenue.BLL\\ManageRevenue.BLL.csproj|c:\\users\\admin\\onedrive\\documents\\projectfasttrack\\backend\\managerevenuepro\\managerevenue\\managerevenue.bll\\common\\isessioninfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CD2EEAB-629F-4281-80CA-3D7E69C43A5B}|ManageRevenue.BLL\\ManageRevenue.BLL.csproj|solutionrelative:managerevenue.bll\\common\\isessioninfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44C64DF5-CBF9-42F5-A68A-EE0D09A7DF49}|ManageRevenue.Domain\\ManageRevenue.Domain.csproj|c:\\users\\admin\\onedrive\\documents\\projectfasttrack\\backend\\managerevenuepro\\managerevenue\\managerevenue.domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44C64DF5-CBF9-42F5-A68A-EE0D09A7DF49}|ManageRevenue.Domain\\ManageRevenue.Domain.csproj|solutionrelative:managerevenue.domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44C64DF5-CBF9-42F5-A68A-EE0D09A7DF49}|ManageRevenue.Domain\\ManageRevenue.Domain.csproj|c:\\users\\admin\\onedrive\\documents\\projectfasttrack\\backend\\managerevenuepro\\managerevenue\\managerevenue.domain\\models\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44C64DF5-CBF9-42F5-A68A-EE0D09A7DF49}|ManageRevenue.Domain\\ManageRevenue.Domain.csproj|solutionrelative:managerevenue.domain\\models\\authresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44C64DF5-CBF9-42F5-A68A-EE0D09A7DF49}|ManageRevenue.Domain\\ManageRevenue.Domain.csproj|c:\\users\\admin\\onedrive\\documents\\projectfasttrack\\backend\\managerevenuepro\\managerevenue\\managerevenue.domain\\common\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44C64DF5-CBF9-42F5-A68A-EE0D09A7DF49}|ManageRevenue.Domain\\ManageRevenue.Domain.csproj|solutionrelative:managerevenue.domain\\common\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44C64DF5-CBF9-42F5-A68A-EE0D09A7DF49}|ManageRevenue.Domain\\ManageRevenue.Domain.csproj|c:\\users\\admin\\onedrive\\documents\\projectfasttrack\\backend\\managerevenuepro\\managerevenue\\managerevenue.domain\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44C64DF5-CBF9-42F5-A68A-EE0D09A7DF49}|ManageRevenue.Domain\\ManageRevenue.Domain.csproj|solutionrelative:managerevenue.domain\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,6 +130,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 153,
+<<<<<<< HEAD
           "SelectedChildIndex": 4,
           "Children": [
             {
@@ -74,27 +155,41 @@
               "ToolTip": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue.DAL\\Repositories\\TransactionRepository.cs",
               "RelativeToolTip": "ManageRevenue.DAL\\Repositories\\TransactionRepository.cs",
               "ViewState": "AQIAAIMAAAAAAAAAAAAlwJoAAAAMAAAA",
+=======
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Documents\\ProjectFasttrack\\BackEnd\\ManageRevenuePro\\ManageRevenue\\ManageRevenue.BLL\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "ManageRevenue.BLL\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Documents\\ProjectFasttrack\\BackEnd\\ManageRevenuePro\\ManageRevenue\\ManageRevenue.BLL\\Services\\UserService.cs",
+              "RelativeToolTip": "ManageRevenue.BLL\\Services\\UserService.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAkwBgAAAAAAAAA",
+>>>>>>> c0a32da67cda64631cc9498ef6843741458d6f12
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T04:37:49.107Z",
+              "WhenOpened": "2025-02-04T16:01:47.498Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TransactionService.cs",
-              "DocumentMoniker": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue.BLL\\Services\\TransactionService.cs",
-              "RelativeDocumentMoniker": "ManageRevenue.BLL\\Services\\TransactionService.cs",
-              "ToolTip": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue.BLL\\Services\\TransactionService.cs",
-              "RelativeToolTip": "ManageRevenue.BLL\\Services\\TransactionService.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAAAtwDoAAABGAAAA",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Documents\\ProjectFasttrack\\BackEnd\\ManageRevenuePro\\ManageRevenue\\ManageRevenue\\Program.cs",
+              "RelativeDocumentMoniker": "ManageRevenue\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Documents\\ProjectFasttrack\\BackEnd\\ManageRevenuePro\\ManageRevenue\\ManageRevenue\\Program.cs",
+              "RelativeToolTip": "ManageRevenue\\Program.cs",
+              "ViewState": "AQIAAEUAAAAAAAAAAADwv10AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-09T04:39:17.839Z",
+              "WhenOpened": "2025-02-04T15:55:20.587Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue\\appsettings.json",
@@ -122,13 +217,48 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+=======
+              "DocumentIndex": 9,
+              "Title": "CategoryResponseModel.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Documents\\ProjectFasttrack\\BackEnd\\ManageRevenuePro\\ManageRevenue\\ManageRevenue\\Models\\Category\\CategoryResponseModel.cs",
+              "RelativeDocumentMoniker": "ManageRevenue\\Models\\Category\\CategoryResponseModel.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Documents\\ProjectFasttrack\\BackEnd\\ManageRevenuePro\\ManageRevenue\\ManageRevenue\\Models\\Category\\CategoryResponseModel.cs",
+              "RelativeToolTip": "ManageRevenue\\Models\\Category\\CategoryResponseModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T03:36:27.168Z",
+              "EditorCaption": ""
+>>>>>>> c0a32da67cda64631cc9498ef6843741458d6f12
             },
             {
               "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CategoryRequestModel.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Documents\\ProjectFasttrack\\BackEnd\\ManageRevenuePro\\ManageRevenue\\ManageRevenue\\Models\\Category\\CategoryRequestModel.cs",
+              "RelativeDocumentMoniker": "ManageRevenue\\Models\\Category\\CategoryRequestModel.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Documents\\ProjectFasttrack\\BackEnd\\ManageRevenuePro\\ManageRevenue\\ManageRevenue\\Models\\Category\\CategoryRequestModel.cs",
+              "RelativeToolTip": "ManageRevenue\\Models\\Category\\CategoryRequestModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T03:36:25.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Documents\\ProjectFasttrack\\BackEnd\\ManageRevenuePro\\ManageRevenue\\ManageRevenue.DAL\\Repositories\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "ManageRevenue.DAL\\Repositories\\CategoryRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Documents\\ProjectFasttrack\\BackEnd\\ManageRevenuePro\\ManageRevenue\\ManageRevenue.DAL\\Repositories\\CategoryRepository.cs",
+              "RelativeToolTip": "ManageRevenue.DAL\\Repositories\\CategoryRepository.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAYwBQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T14:38:55.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 8,
               "Title": "ITransactionRepository.cs",
               "DocumentMoniker": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue.Domain\\Interfaces\\ITransactionRepository.cs",
@@ -150,23 +280,65 @@
               "ViewState": "AQIAACEAAAAAAAAAAAAuwEwAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-10T16:28:08.343Z",
+=======
+              "DocumentIndex": 1,
+              "Title": "BaseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Documents\\ProjectFasttrack\\BackEnd\\ManageRevenuePro\\ManageRevenue\\ManageRevenue.DAL\\BaseRepository.cs",
+              "RelativeDocumentMoniker": "ManageRevenue.DAL\\BaseRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Documents\\ProjectFasttrack\\BackEnd\\ManageRevenuePro\\ManageRevenue\\ManageRevenue.DAL\\BaseRepository.cs",
+              "RelativeToolTip": "ManageRevenue.DAL\\BaseRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T14:38:50.332Z",
+>>>>>>> c0a32da67cda64631cc9498ef6843741458d6f12
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "CategoryController.cs",
-              "DocumentMoniker": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue\\Controllers\\CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Documents\\ProjectFasttrack\\BackEnd\\ManageRevenuePro\\ManageRevenue\\ManageRevenue\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "ManageRevenue\\Controllers\\CategoryController.cs",
-              "ToolTip": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Documents\\ProjectFasttrack\\BackEnd\\ManageRevenuePro\\ManageRevenue\\ManageRevenue\\Controllers\\CategoryController.cs",
               "RelativeToolTip": "ManageRevenue\\Controllers\\CategoryController.cs",
+<<<<<<< HEAD
               "ViewState": "AQIAAAYAAAAAAAAAAAAAwBkAAAAMAAAA",
+=======
+              "ViewState": "AQIAAGQAAAAAAAAAAADgv3gAAAA1AAAA",
+>>>>>>> c0a32da67cda64631cc9498ef6843741458d6f12
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-10T16:04:45.377Z",
+              "WhenOpened": "2025-02-08T14:37:52.913Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TransactionSummaryViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Documents\\ProjectFasttrack\\BackEnd\\ManageRevenuePro\\ManageRevenue\\ManageRevenue.Domain\\Models\\TransactionSummaryViewModel.cs",
+              "RelativeDocumentMoniker": "ManageRevenue.Domain\\Models\\TransactionSummaryViewModel.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Documents\\ProjectFasttrack\\BackEnd\\ManageRevenuePro\\ManageRevenue\\ManageRevenue.Domain\\Models\\TransactionSummaryViewModel.cs",
+              "RelativeToolTip": "ManageRevenue.Domain\\Models\\TransactionSummaryViewModel.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAA9wBgAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-09T03:37:13.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Documents\\ProjectFasttrack\\BackEnd\\ManageRevenuePro\\ManageRevenue\\ManageRevenue\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "ManageRevenue\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Documents\\ProjectFasttrack\\BackEnd\\ManageRevenuePro\\ManageRevenue\\ManageRevenue\\Controllers\\UserController.cs",
+              "RelativeToolTip": "ManageRevenue\\Controllers\\UserController.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T14:37:50.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 2,
               "Title": "CategoryRepository.cs",
               "DocumentMoniker": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue.DAL\\Repositories\\CategoryRepository.cs",
@@ -174,12 +346,22 @@
               "ToolTip": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue.DAL\\Repositories\\CategoryRepository.cs",
               "RelativeToolTip": "ManageRevenue.DAL\\Repositories\\CategoryRepository.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAgwB4AAAAMAAAA",
+=======
+              "DocumentIndex": 3,
+              "Title": "TransactionController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Documents\\ProjectFasttrack\\BackEnd\\ManageRevenuePro\\ManageRevenue\\ManageRevenue\\Controllers\\TransactionController.cs",
+              "RelativeDocumentMoniker": "ManageRevenue\\Controllers\\TransactionController.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Documents\\ProjectFasttrack\\BackEnd\\ManageRevenuePro\\ManageRevenue\\ManageRevenue\\Controllers\\TransactionController.cs",
+              "RelativeToolTip": "ManageRevenue\\Controllers\\TransactionController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABYAAAA+AAAA",
+>>>>>>> c0a32da67cda64631cc9498ef6843741458d6f12
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T16:04:42.567Z",
+              "WhenOpened": "2025-02-08T14:37:51.743Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 3,
               "Title": "CategoryService.cs",
               "DocumentMoniker": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue.BLL\\Services\\CategoryService.cs",
@@ -190,6 +372,135 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-10T16:26:56.047Z",
               "EditorCaption": ""
+=======
+              "DocumentIndex": 13,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Documents\\ProjectFasttrack\\BackEnd\\ManageRevenuePro\\ManageRevenue\\ManageRevenue\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ManageRevenue\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Documents\\ProjectFasttrack\\BackEnd\\ManageRevenuePro\\ManageRevenue\\ManageRevenue\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ManageRevenue\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-07T13:49:09.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Documents\\ProjectFasttrack\\BackEnd\\ManageRevenuePro\\ManageRevenue\\ManageRevenue\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "ManageRevenue\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Documents\\ProjectFasttrack\\BackEnd\\ManageRevenuePro\\ManageRevenue\\ManageRevenue\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "ManageRevenue\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwBQAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-05T03:29:15.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Documents\\ProjectFasttrack\\BackEnd\\ManageRevenuePro\\ManageRevenue\\ManageRevenue\\appsettings.json",
+              "RelativeDocumentMoniker": "ManageRevenue\\appsettings.json",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Documents\\ProjectFasttrack\\BackEnd\\ManageRevenuePro\\ManageRevenue\\ManageRevenue\\appsettings.json",
+              "RelativeToolTip": "ManageRevenue\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-09T08:11:47.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Documents\\ProjectFasttrack\\BackEnd\\ManageRevenuePro\\ManageRevenue\\ManageRevenue\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "ManageRevenue\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Documents\\ProjectFasttrack\\BackEnd\\ManageRevenuePro\\ManageRevenue\\ManageRevenue\\appsettings.Development.json",
+              "RelativeToolTip": "ManageRevenue\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-08T15:24:03.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SessionInfo.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Documents\\ProjectFasttrack\\BackEnd\\ManageRevenuePro\\ManageRevenue\\ManageRevenue.BLL\\Common\\SessionInfo.cs",
+              "RelativeDocumentMoniker": "ManageRevenue.BLL\\Common\\SessionInfo.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Documents\\ProjectFasttrack\\BackEnd\\ManageRevenuePro\\ManageRevenue\\ManageRevenue.BLL\\Common\\SessionInfo.cs",
+              "RelativeToolTip": "ManageRevenue.BLL\\Common\\SessionInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T14:39:02.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ISessionInfo.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Documents\\ProjectFasttrack\\BackEnd\\ManageRevenuePro\\ManageRevenue\\ManageRevenue.BLL\\Common\\ISessionInfo.cs",
+              "RelativeDocumentMoniker": "ManageRevenue.BLL\\Common\\ISessionInfo.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Documents\\ProjectFasttrack\\BackEnd\\ManageRevenuePro\\ManageRevenue\\ManageRevenue.BLL\\Common\\ISessionInfo.cs",
+              "RelativeToolTip": "ManageRevenue.BLL\\Common\\ISessionInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T14:39:01.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Documents\\ProjectFasttrack\\BackEnd\\ManageRevenuePro\\ManageRevenue\\ManageRevenue.Domain\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "ManageRevenue.Domain\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Documents\\ProjectFasttrack\\BackEnd\\ManageRevenuePro\\ManageRevenue\\ManageRevenue.Domain\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "ManageRevenue.Domain\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T13:39:11.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AuthResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Documents\\ProjectFasttrack\\BackEnd\\ManageRevenuePro\\ManageRevenue\\ManageRevenue.Domain\\Models\\AuthResponse.cs",
+              "RelativeDocumentMoniker": "ManageRevenue.Domain\\Models\\AuthResponse.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Documents\\ProjectFasttrack\\BackEnd\\ManageRevenuePro\\ManageRevenue\\ManageRevenue.Domain\\Models\\AuthResponse.cs",
+              "RelativeToolTip": "ManageRevenue.Domain\\Models\\AuthResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T13:39:08.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Response.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Documents\\ProjectFasttrack\\BackEnd\\ManageRevenuePro\\ManageRevenue\\ManageRevenue.Domain\\Common\\Response.cs",
+              "RelativeDocumentMoniker": "ManageRevenue.Domain\\Common\\Response.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Documents\\ProjectFasttrack\\BackEnd\\ManageRevenuePro\\ManageRevenue\\ManageRevenue.Domain\\Common\\Response.cs",
+              "RelativeToolTip": "ManageRevenue.Domain\\Common\\Response.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T13:39:12.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\OneDrive\\Documents\\ProjectFasttrack\\BackEnd\\ManageRevenuePro\\ManageRevenue\\ManageRevenue.Domain\\Models\\LoginModel.cs",
+              "RelativeDocumentMoniker": "ManageRevenue.Domain\\Models\\LoginModel.cs",
+              "ToolTip": "C:\\Users\\Admin\\OneDrive\\Documents\\ProjectFasttrack\\BackEnd\\ManageRevenuePro\\ManageRevenue\\ManageRevenue.Domain\\Models\\LoginModel.cs",
+              "RelativeToolTip": "ManageRevenue.Domain\\Models\\LoginModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T13:39:09.811Z",
+              "EditorCaption": ""
+>>>>>>> c0a32da67cda64631cc9498ef6843741458d6f12
             }
           ]
         }

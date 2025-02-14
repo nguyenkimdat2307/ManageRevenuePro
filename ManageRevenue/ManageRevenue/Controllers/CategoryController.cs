@@ -19,20 +19,29 @@ namespace ManageRevenue.Controllers
         {
             _categoryService = categoryService;
         }
+
         [Authorize]
         [HttpPost("new-category")]
         public async Task<IActionResult> AddCategory(CategoryRequestModel categoryRequestModel)
         {
-            var request = new CategoryViewModel
+            try
             {
-                Name = categoryRequestModel.Name,
-                Type = categoryRequestModel.Type,
-                Color = categoryRequestModel.Color,
-                Icon = categoryRequestModel.Icon
-            };
-            var result = await _categoryService.AddCategoryRevenu(request);
-            return Ok(result); ;
+                var request = new CategoryViewModel
+                {
+                    Name = categoryRequestModel.Name,
+                    Type = categoryRequestModel.Type,
+                    Color = categoryRequestModel.Color,
+                    Icon = categoryRequestModel.Icon,
+                };
+                var result = await _categoryService.AddCategoryRevenu(request);
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
+
         [Authorize]
         [HttpGet("get-category")]
         public async Task<IActionResult> GetCategoryByUser()
@@ -44,34 +53,36 @@ namespace ManageRevenue.Controllers
                 Code = categoryResponse.Code,
                 Message = categoryResponse.Message,
                 DataList = new List<CategoryResponseModel>
-        {
-            new CategoryResponseModel
-            {
-                ListCategoryCollect = categoryResponse.DataList
-                    .Where(category => category.Type == true)
-                    .Select(category => new CategoryCollect
+                {
+                    new CategoryResponseModel
                     {
-                        Id = category.Id,
-                        UserId = category.UserId,
-                        Name = category.Name,
-                        Type = category.Type,
-                        Color = category.Color,
-                        Icon = category.Icon
-                    }).ToList(),
+                        ListCategoryCollect = categoryResponse
+                            .DataList.Where(category => category.Type == true)
+                            .Select(category => new CategoryCollect
+                            {
+                                Id = category.Id,
+                                UserId = category.UserId,
+                                Name = category.Name,
+                                Type = category.Type,
+                                Color = category.Color,
+                                Icon = category.Icon,
+                            })
+                            .ToList(),
 
-                ListCategorySpend = categoryResponse.DataList
-                    .Where(category => category.Type == false)
-                    .Select(category => new CategorySpend
-                    {
-                        Id = category.Id,
-                        UserId = category.UserId,
-                        Name = category.Name,
-                        Type = category.Type,
-                        Color = category.Color,
-                        Icon = category.Icon
-                    }).ToList()
-            }
-        }
+                        ListCategorySpend = categoryResponse
+                            .DataList.Where(category => category.Type == false)
+                            .Select(category => new CategorySpend
+                            {
+                                Id = category.Id,
+                                UserId = category.UserId,
+                                Name = category.Name,
+                                Type = category.Type,
+                                Color = category.Color,
+                                Icon = category.Icon,
+                            })
+                            .ToList(),
+                    },
+                },
             };
 
             return Ok(response);
@@ -82,29 +93,42 @@ namespace ManageRevenue.Controllers
         public async Task<IActionResult> GetCategoryByID(int categoryId)
         {
             var result = await _categoryService.GetCategoryByIdSummary(categoryId);
-            return Ok(result); ;
+            return Ok(result);
+            ;
         }
+
         [Authorize]
         [HttpDelete("delete-category")]
         public async Task<IActionResult> DeleteCategoryByID(int categoryId)
         {
             var result = await _categoryService.DeleteCategorySummaryId(categoryId);
-            return Ok(result); ;
+            return Ok(result);
+            ;
         }
+
         [Authorize]
         [HttpPost("update-category")]
-        public async Task<IActionResult> UpdateCategory(UpdateCategoryRequestModel categoryRequestModel)
+        public async Task<IActionResult> UpdateCategory(
+            UpdateCategoryRequestModel categoryRequestModel
+        )
         {
-            var request = new CategoryViewModel
+            try
             {
-                Id = categoryRequestModel.Id,
-                Name = categoryRequestModel.Name,
-                Type = categoryRequestModel.Type,
-                Color = categoryRequestModel.Color,
-                Icon = categoryRequestModel.Icon
-            };
-            var result = await _categoryService.UpdateCategoryManageRevenue(request);
-            return Ok(result); ;
+                var request = new CategoryViewModel
+                {
+                    Id = categoryRequestModel.Id,
+                    Name = categoryRequestModel.Name,
+                    Type = categoryRequestModel.Type,
+                    Color = categoryRequestModel.Color,
+                    Icon = categoryRequestModel.Icon,
+                };
+                var result = await _categoryService.UpdateCategoryManageRevenue(request);
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
     }
 }

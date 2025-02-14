@@ -23,3 +23,16 @@ E:\ProjectDev3\ManageRevenue\ManageRevenue.Domain\obj\Debug\net8.0\ManageRevenue
 E:\ProjectDev3\ManageRevenue\ManageRevenue.Domain\obj\Debug\net8.0\refint\ManageRevenue.Domain.dll
 E:\ProjectDev3\ManageRevenue\ManageRevenue.Domain\obj\Debug\net8.0\ManageRevenue.Domain.pdb
 E:\ProjectDev3\ManageRevenue\ManageRevenue.Domain\obj\Debug\net8.0\ref\ManageRevenue.Domain.dll
+C:\Users\Admin\OneDrive\Documents\ProjectFasttrack\BackEnd\ManageRevenuePro\ManageRevenue\ManageRevenue.Domain\bin\Debug\net8.0\ManageRevenue.Domain.deps.json
+C:\Users\Admin\OneDrive\Documents\ProjectFasttrack\BackEnd\ManageRevenuePro\ManageRevenue\ManageRevenue.Domain\bin\Debug\net8.0\ManageRevenue.Domain.dll
+C:\Users\Admin\OneDrive\Documents\ProjectFasttrack\BackEnd\ManageRevenuePro\ManageRevenue\ManageRevenue.Domain\bin\Debug\net8.0\ManageRevenue.Domain.pdb
+C:\Users\Admin\OneDrive\Documents\ProjectFasttrack\BackEnd\ManageRevenuePro\ManageRevenue\ManageRevenue.Domain\obj\Debug\net8.0\ManageRevenue.Domain.csproj.AssemblyReference.cache
+C:\Users\Admin\OneDrive\Documents\ProjectFasttrack\BackEnd\ManageRevenuePro\ManageRevenue\ManageRevenue.Domain\obj\Debug\net8.0\ManageRevenue.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\OneDrive\Documents\ProjectFasttrack\BackEnd\ManageRevenuePro\ManageRevenue\ManageRevenue.Domain\obj\Debug\net8.0\ManageRevenue.Domain.AssemblyInfoInputs.cache
+C:\Users\Admin\OneDrive\Documents\ProjectFasttrack\BackEnd\ManageRevenuePro\ManageRevenue\ManageRevenue.Domain\obj\Debug\net8.0\ManageRevenue.Domain.AssemblyInfo.cs
+C:\Users\Admin\OneDrive\Documents\ProjectFasttrack\BackEnd\ManageRevenuePro\ManageRevenue\ManageRevenue.Domain\obj\Debug\net8.0\ManageRevenue.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Admin\OneDrive\Documents\ProjectFasttrack\BackEnd\ManageRevenuePro\ManageRevenue\ManageRevenue.Domain\obj\Debug\net8.0\ManageRevenue.Domain.sourcelink.json
+C:\Users\Admin\OneDrive\Documents\ProjectFasttrack\BackEnd\ManageRevenuePro\ManageRevenue\ManageRevenue.Domain\obj\Debug\net8.0\ManageRevenue.Domain.dll
+C:\Users\Admin\OneDrive\Documents\ProjectFasttrack\BackEnd\ManageRevenuePro\ManageRevenue\ManageRevenue.Domain\obj\Debug\net8.0\refint\ManageRevenue.Domain.dll
+C:\Users\Admin\OneDrive\Documents\ProjectFasttrack\BackEnd\ManageRevenuePro\ManageRevenue\ManageRevenue.Domain\obj\Debug\net8.0\ManageRevenue.Domain.pdb
+C:\Users\Admin\OneDrive\Documents\ProjectFasttrack\BackEnd\ManageRevenuePro\ManageRevenue\ManageRevenue.Domain\obj\Debug\net8.0\ref\ManageRevenue.Domain.dll
