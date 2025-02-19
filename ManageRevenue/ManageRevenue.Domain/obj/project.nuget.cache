@@ -1,13 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "+2spomOWohl2+JPh+eVFBuM384Y1Vh1q1k+nuzHVzawTyKZiII/8Nh1UU4xLnrsENJYzyx03+Di0aAHHkKIskw==",
+  "dgSpecHash": "Jbi6tZdDvpSo1jyuO87HH1OvgoKktjzPqfRi6Yufbt3NKuUd/DBFAAlIpM/ZVY72UVWg81oeJ9sRHEKITxekXg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\OneDrive\\Documents\\ProjectFasttrack\\BackEnd\\ManageRevenuePro\\ManageRevenue\\ManageRevenue.Domain\\ManageRevenue.Domain.csproj",
+  "projectFilePath": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue.Domain\\ManageRevenue.Domain.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.3.0\\microsoft.aspnetcore.http.abstractions.2.3.0.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.3.0\\microsoft.aspnetcore.http.features.2.3.0.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
-    "C:\\Users\\Admin\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512"
+    "C:\\Users\\kimda\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.3.0\\microsoft.aspnetcore.http.abstractions.2.3.0.nupkg.sha512",
+    "C:\\Users\\kimda\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.3.0\\microsoft.aspnetcore.http.features.2.3.0.nupkg.sha512",
+    "C:\\Users\\kimda\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\kimda\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512"
   ],
   "logs": []
 }

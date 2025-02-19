@@ -434,19 +434,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {}
+    "C:\\Users\\kimda\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\OneDrive\\Documents\\ProjectFasttrack\\BackEnd\\ManageRevenuePro\\ManageRevenue\\ManageRevenue.DAL\\ManageRevenue.DAL.csproj",
+      "projectUniqueName": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue.DAL\\ManageRevenue.DAL.csproj",
       "projectName": "ManageRevenue.DAL",
-      "projectPath": "C:\\Users\\Admin\\OneDrive\\Documents\\ProjectFasttrack\\BackEnd\\ManageRevenuePro\\ManageRevenue\\ManageRevenue.DAL\\ManageRevenue.DAL.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\OneDrive\\Documents\\ProjectFasttrack\\BackEnd\\ManageRevenuePro\\ManageRevenue\\ManageRevenue.DAL\\obj\\",
+      "projectPath": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue.DAL\\ManageRevenue.DAL.csproj",
+      "packagesPath": "C:\\Users\\kimda\\.nuget\\packages\\",
+      "outputPath": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue.DAL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\kimda\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -460,8 +460,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Admin\\OneDrive\\Documents\\ProjectFasttrack\\BackEnd\\ManageRevenuePro\\ManageRevenue\\ManageRevenue.Domain\\ManageRevenue.Domain.csproj": {
-              "projectPath": "C:\\Users\\Admin\\OneDrive\\Documents\\ProjectFasttrack\\BackEnd\\ManageRevenuePro\\ManageRevenue\\ManageRevenue.Domain\\ManageRevenue.Domain.csproj"
+            "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue.Domain\\ManageRevenue.Domain.csproj": {
+              "projectPath": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue.Domain\\ManageRevenue.Domain.csproj"
             }
           }
         }
@@ -510,7 +510,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

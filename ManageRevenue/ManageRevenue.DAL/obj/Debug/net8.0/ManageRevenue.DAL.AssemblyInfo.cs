@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ManageRevenue.DAL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6c72815c6417afb5b154bd12133c4b7a1f0b05f1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bc07d18eea67f4cdf3922f3d8b0a2624aabeebef")]
 [assembly: System.Reflection.AssemblyProductAttribute("ManageRevenue.DAL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ManageRevenue.DAL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,5 +1,6 @@
 ﻿using ManageRevenue.Domain.Common;
 using ManageRevenue.Domain.Models;
+using ManageRevenue.Domain.Models.Transaction;
 
 namespace ManageRevenue.Domain.Interfaces
 {
@@ -11,5 +12,6 @@ namespace ManageRevenue.Domain.Interfaces
         Task<TransactionSummaryViewModel> GetMonthlyTransactionSummary(int userId, int month, int year);
         Task<Response<TransactionDetailViewModel>> GetTransactionById(int transactionId);
         Task<Response<TransactionStatisticsSummaryViewModel>> GetTransactionStatisticsSummary(int userId, int year, int month);
+        Task<Response<TransactionForCategoryResponseModel>> GetTransactionForCategorySummary(TransactionForCategoryRequestModel requestModel);
     }
 }

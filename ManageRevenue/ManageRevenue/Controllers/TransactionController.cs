@@ -1,5 +1,6 @@
 ﻿using ManageRevenue.BLL.Interfaces;
 using ManageRevenue.Domain.Models;
+using ManageRevenue.Domain.Models.Transaction;
 using ManageRevenue.Models.Transaction;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -74,7 +75,22 @@ namespace ManageRevenue.Controllers
         [HttpGet("get-transaction-statistics")]
         public async Task<IActionResult> GetTransactionStatis(int year, int month)
         {
-            var result = await _transactionService.GetTransactionStatisticsSummary(year,month);
+            var result = await _transactionService.GetTransactionStatisticsSummary(year, month);
+            return Ok(result);
+        }
+        [Authorize]
+        [HttpPost("get-transaction-category")]
+        public async Task<IActionResult> GetTransactionForCategory(TransactionForCategoryRequest request)
+        {
+            var param = new TransactionForCategoryRequestModel
+            {
+                CategoryId = request.CategoryId,
+                Month = request.Month,
+                TransactionType = request.TransactionType,
+                Year = request.Year,
+            };
+
+            var result = await _transactionService.GetTransactionForCategory(param);
             return Ok(result);
         }
     }

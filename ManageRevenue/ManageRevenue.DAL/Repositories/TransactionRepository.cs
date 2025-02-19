@@ -2,6 +2,7 @@
 using ManageRevenue.Domain.Common;
 using ManageRevenue.Domain.Interfaces;
 using ManageRevenue.Domain.Models;
+using ManageRevenue.Domain.Models.Transaction;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using System.Data;
@@ -163,5 +164,27 @@ namespace ManageRevenue.DAL.Repositories
             return response;
         }
 
+        public async Task<Response<TransactionForCategoryResponseModel>> GetTransactionForCategorySummary(TransactionForCategoryRequestModel requestModel)
+        {
+            var response = new Response<TransactionForCategoryResponseModel>();
+            using var connection = CreateConnection();
+
+            var multi = await connection.QueryMultipleAsync(
+                "GetTransactionForCategory",
+                new { UserId = requestModel.UserId, Year = requestModel.Year, Month = requestModel.Month, 
+                    CategoryId = requestModel.CategoryId, TransactionType = requestModel.TransactionType },
+                commandType: CommandType.StoredProcedure
+            );
+
+            var result= (await multi.ReadAsync<TransactionForCategory>()).ToList();
+
+            response.DataList = new List<TransactionForCategoryResponseModel>
+            {
+                new TransactionForCategoryResponseModel{transactionForCategoriesYearOrMonth = result}
+            };
+            response.Message = "Successfully retrieved transaction category.";
+            response.Code = StatusCodes.Status200OK;
+            return response;
+        }
     }
 }

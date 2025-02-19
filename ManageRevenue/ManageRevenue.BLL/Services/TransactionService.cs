@@ -3,6 +3,7 @@ using ManageRevenue.BLL.Interfaces;
 using ManageRevenue.Domain.Common;
 using ManageRevenue.Domain.Interfaces;
 using ManageRevenue.Domain.Models;
+using ManageRevenue.Domain.Models.Transaction;
 using System.Transactions;
 
 namespace ManageRevenue.BLL.Services
@@ -50,6 +51,21 @@ namespace ManageRevenue.BLL.Services
         public async Task<Response<TransactionDetailViewModel>> GetTransactionById(int transactionId)
         {
             var result = await _transactionRepository.GetTransactionById(transactionId);
+            return result;
+        }
+
+        public async Task<Response<TransactionForCategoryResponseModel>> GetTransactionForCategory(TransactionForCategoryRequestModel requestModel)
+        {
+            int userId = _sessionInfo.GetUserId();
+            var param = new TransactionForCategoryRequestModel
+            {
+                CategoryId = requestModel.CategoryId,
+                TransactionType = requestModel.TransactionType,
+                Month = requestModel.Month,
+                Year = requestModel.Year,
+                UserId = userId
+            };
+            var result = await _transactionRepository.GetTransactionForCategorySummary(param);
             return result;
         }
 

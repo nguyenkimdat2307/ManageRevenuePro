@@ -1,5 +1,6 @@
 ﻿using ManageRevenue.Domain.Common;
 using ManageRevenue.Domain.Models;
+using ManageRevenue.Domain.Models.Transaction;
 
 namespace ManageRevenue.BLL.Interfaces
 {
@@ -11,6 +12,7 @@ namespace ManageRevenue.BLL.Interfaces
         Task<Response<string>> DeleteTransactionSummary(int transactionId);
         Task<Response<TransactionDetailViewModel>> GetTransactionById(int transactionId);
         Task<Response<TransactionStatisticsSummaryViewModel>> GetTransactionStatisticsSummary(int year,int month);
+        Task<Response<TransactionForCategoryResponseModel>> GetTransactionForCategory(TransactionForCategoryRequestModel requestModel);
 
     }
 }

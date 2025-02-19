@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ManageRevenue.DAL
-build_property.ProjectDir = C:\Users\Admin\OneDrive\Documents\ProjectFasttrack\BackEnd\ManageRevenuePro\ManageRevenue\ManageRevenue.DAL\
+build_property.ProjectDir = E:\ProjectDev3\ManageRevenue\ManageRevenue.DAL\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
