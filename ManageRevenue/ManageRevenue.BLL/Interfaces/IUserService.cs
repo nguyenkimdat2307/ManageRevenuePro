@@ -1,5 +1,6 @@
 ﻿using ManageRevenue.Domain.Common;
 using ManageRevenue.Domain.Models;
+using ManageRevenue.Domain.Models.Auth;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,5 +14,7 @@ namespace ManageRevenue.BLL.Interfaces
         Task<Response<UserViewModel>> GetAllUsers();
         Task<AuthResponse> RegisterUserAsync(RegisterModel model);
         Task<AuthResponse> LoginUserAsync(LoginModel model);
+        bool ValidateJwtToken(string token);
+        Task<AuthResponse> RefreshTokenAsync(RefreshTokenRequest request);
     }
 }

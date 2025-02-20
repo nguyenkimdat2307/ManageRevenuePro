@@ -18,4 +18,8 @@
     <ProjectReference Include="..\ManageRevenue.DAL\ManageRevenue.DAL.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Models\Auth\" />
+  </ItemGroup>
+
 </Project>

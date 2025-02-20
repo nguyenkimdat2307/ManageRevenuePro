@@ -1,5 +1,6 @@
 ﻿using ManageRevenue.BLL.Interfaces;
 using ManageRevenue.Domain.Models;
+using ManageRevenue.Domain.Models.Auth;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ManageRevenue.Controllers
@@ -34,5 +35,32 @@ namespace ManageRevenue.Controllers
 
             return Ok(result);
         }
+
+        [HttpGet("validate-token")]
+        public  IActionResult ValidateToken()
+        {
+            var authHeader = Request.Headers["Authorization"].FirstOrDefault();
+            if (string.IsNullOrEmpty(authHeader) || !authHeader.StartsWith("Bearer "))
+                return Unauthorized(new { message = "Token is missing" });
+
+            var token = authHeader.Substring("Bearer ".Length).Trim();
+
+            var isValid =  _userService.ValidateJwtToken(token);
+            if (!isValid)
+                return Unauthorized(new { message = "Invalid token" });
+
+            return Ok(new { message = "Token is valid" });
+        }
+        [HttpPost("refresh-token")]
+        public async Task<IActionResult> RefreshToken([FromBody] RefreshTokenRequest request)
+        {
+            var response = await _userService.RefreshTokenAsync(request);
+            if (!response.Success)
+                return Unauthorized(new { message = response.Message });
+
+            return Ok(response);
+        }
+
+
     }
 }
