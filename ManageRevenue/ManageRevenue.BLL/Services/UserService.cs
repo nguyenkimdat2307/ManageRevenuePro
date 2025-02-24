@@ -44,7 +44,7 @@ namespace ManageRevenue.BLL.Services
             if (user == null || !BCrypt.Net.BCrypt.Verify(model.Password, user.PasswordHash))
                 return new AuthResponse { Success = false, Message = "Invalid credentials" };
 
-            var accessToken = GenerateJwtToken(user, TimeSpan.FromMinutes(1)); 
+            var accessToken = GenerateJwtToken(user, TimeSpan.FromMinutes(15)); 
             var refreshToken = GenerateJwtToken(user, TimeSpan.FromDays(7));
 
             return new AuthResponse
@@ -148,7 +148,7 @@ namespace ManageRevenue.BLL.Services
             if (string.IsNullOrEmpty(userId))
                 return new AuthResponse { Success = false, Message = "Invalid user" };
 
-            var newAccessToken = GenerateJwtToken(new UserViewModel { Id = int.Parse(userId) }, TimeSpan.FromMinutes(1));
+            var newAccessToken = GenerateJwtToken(new UserViewModel { Id = int.Parse(userId) }, TimeSpan.FromMinutes(15));
             var newRefreshToken = GenerateJwtToken(new UserViewModel { Id = int.Parse(userId) }, TimeSpan.FromDays(7));
 
             return new AuthResponse
