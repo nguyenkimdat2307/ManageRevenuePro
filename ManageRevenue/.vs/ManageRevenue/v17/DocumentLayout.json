@@ -3,12 +3,36 @@
   "WorkspaceRootPath": "E:\\ProjectDev3\\ManageRevenue\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{73C36DDD-2675-40DD-8F3A-7A744D92B452}|ManageRevenue\\ManageRevenue.csproj|e:\\projectdev3\\managerevenue\\managerevenue\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{73C36DDD-2675-40DD-8F3A-7A744D92B452}|ManageRevenue\\ManageRevenue.csproj|solutionrelative:managerevenue\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5E010751-00B3-4C42-A06F-DBC6392F8D5D}|ManageRevenue.UnitTest\\ManageRevenue.UnitTest.csproj|e:\\projectdev3\\managerevenue\\managerevenue.unittest\\services\\transaction\\transactionservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E010751-00B3-4C42-A06F-DBC6392F8D5D}|ManageRevenue.UnitTest\\ManageRevenue.UnitTest.csproj|solutionrelative:managerevenue.unittest\\services\\transaction\\transactionservicetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E010751-00B3-4C42-A06F-DBC6392F8D5D}|ManageRevenue.UnitTest\\ManageRevenue.UnitTest.csproj|e:\\projectdev3\\managerevenue\\managerevenue.unittest\\mocks\\transaction\\transactionrepositorymock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E010751-00B3-4C42-A06F-DBC6392F8D5D}|ManageRevenue.UnitTest\\ManageRevenue.UnitTest.csproj|solutionrelative:managerevenue.unittest\\mocks\\transaction\\transactionrepositorymock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD2EEAB-629F-4281-80CA-3D7E69C43A5B}|ManageRevenue.BLL\\ManageRevenue.BLL.csproj|e:\\projectdev3\\managerevenue\\managerevenue.bll\\services\\transactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CD2EEAB-629F-4281-80CA-3D7E69C43A5B}|ManageRevenue.BLL\\ManageRevenue.BLL.csproj|solutionrelative:managerevenue.bll\\services\\transactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E010751-00B3-4C42-A06F-DBC6392F8D5D}|ManageRevenue.UnitTest\\ManageRevenue.UnitTest.csproj|e:\\projectdev3\\managerevenue\\managerevenue.unittest\\mocks\\sessioninfomock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5E010751-00B3-4C42-A06F-DBC6392F8D5D}|ManageRevenue.UnitTest\\ManageRevenue.UnitTest.csproj|solutionrelative:managerevenue.unittest\\mocks\\sessioninfomock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{73C36DDD-2675-40DD-8F3A-7A744D92B452}|ManageRevenue\\ManageRevenue.csproj|e:\\projectdev3\\managerevenue\\managerevenue\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{73C36DDD-2675-40DD-8F3A-7A744D92B452}|ManageRevenue\\ManageRevenue.csproj|solutionrelative:managerevenue\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CD2EEAB-629F-4281-80CA-3D7E69C43A5B}|ManageRevenue.BLL\\ManageRevenue.BLL.csproj|e:\\projectdev3\\managerevenue\\managerevenue.bll\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CD2EEAB-629F-4281-80CA-3D7E69C43A5B}|ManageRevenue.BLL\\ManageRevenue.BLL.csproj|solutionrelative:managerevenue.bll\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C36DDD-2675-40DD-8F3A-7A744D92B452}|ManageRevenue\\ManageRevenue.csproj|e:\\projectdev3\\managerevenue\\managerevenue\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C36DDD-2675-40DD-8F3A-7A744D92B452}|ManageRevenue\\ManageRevenue.csproj|solutionrelative:managerevenue\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73C36DDD-2675-40DD-8F3A-7A744D92B452}|ManageRevenue\\ManageRevenue.csproj|e:\\projectdev3\\managerevenue\\managerevenue\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73C36DDD-2675-40DD-8F3A-7A744D92B452}|ManageRevenue\\ManageRevenue.csproj|solutionrelative:managerevenue\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,15 +42,95 @@
       "DocumentGroups": [
         {
           "DockedWidth": 153,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SessionInfoMock.cs",
+              "DocumentMoniker": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue.UnitTest\\Mocks\\SessionInfoMock.cs",
+              "RelativeDocumentMoniker": "ManageRevenue.UnitTest\\Mocks\\SessionInfoMock.cs",
+              "ToolTip": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue.UnitTest\\Mocks\\SessionInfoMock.cs",
+              "RelativeToolTip": "ManageRevenue.UnitTest\\Mocks\\SessionInfoMock.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T16:14:19.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TransactionRepositoryMock.cs",
+              "DocumentMoniker": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue.UnitTest\\Mocks\\Transaction\\TransactionRepositoryMock.cs",
+              "RelativeDocumentMoniker": "ManageRevenue.UnitTest\\Mocks\\Transaction\\TransactionRepositoryMock.cs",
+              "ToolTip": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue.UnitTest\\Mocks\\Transaction\\TransactionRepositoryMock.cs",
+              "RelativeToolTip": "ManageRevenue.UnitTest\\Mocks\\Transaction\\TransactionRepositoryMock.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAADwvyMAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T16:13:59.341Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "TransactionServiceTest.cs",
+              "DocumentMoniker": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue.UnitTest\\Services\\Transaction\\TransactionServiceTest.cs",
+              "RelativeDocumentMoniker": "ManageRevenue.UnitTest\\Services\\Transaction\\TransactionServiceTest.cs",
+              "ToolTip": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue.UnitTest\\Services\\Transaction\\TransactionServiceTest.cs",
+              "RelativeToolTip": "ManageRevenue.UnitTest\\Services\\Transaction\\TransactionServiceTest.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwCwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-03T16:12:01.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TransactionService.cs",
+              "DocumentMoniker": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue.BLL\\Services\\TransactionService.cs",
+              "RelativeDocumentMoniker": "ManageRevenue.BLL\\Services\\TransactionService.cs",
+              "ToolTip": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue.BLL\\Services\\TransactionService.cs",
+              "RelativeToolTip": "ManageRevenue.BLL\\Services\\TransactionService.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAYwDcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T16:05:07.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue.BLL\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "ManageRevenue.BLL\\Services\\UserService.cs",
+              "ToolTip": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue.BLL\\Services\\UserService.cs",
+              "RelativeToolTip": "ManageRevenue.BLL\\Services\\UserService.cs",
+              "ViewState": "AQIAAIYAAAAAAAAAAAAuwJIAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T08:10:09.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "ManageRevenue\\Controllers\\AuthController.cs",
+              "ToolTip": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "ManageRevenue\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAIwBIAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T08:09:51.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue\\Program.cs",
               "RelativeDocumentMoniker": "ManageRevenue\\Program.cs",
@@ -34,12 +138,11 @@
               "RelativeToolTip": "ManageRevenue\\Program.cs",
               "ViewState": "AQIAAGgAAAAAAAAAAAAAAGgAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T09:36:02.757Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-23T09:36:02.757Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
               "DocumentMoniker": "E:\\ProjectDev3\\ManageRevenue\\ManageRevenue\\appsettings.json",
               "RelativeDocumentMoniker": "ManageRevenue\\appsettings.json",
@@ -47,8 +150,7 @@
               "RelativeToolTip": "ManageRevenue\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-23T09:34:17.334Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-23T09:34:17.334Z"
             }
           ]
         }
